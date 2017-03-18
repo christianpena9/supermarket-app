@@ -2,5 +2,9 @@
     {
         "merged": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/Users/christianpena/Meteor/SuperMarketApp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]
