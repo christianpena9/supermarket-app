@@ -15,7 +15,6 @@ import {
   Switch,
   Platform
 } from 'react-native';
-//import Call from './components/Call.js';
 
 const onButtonPress = () => {
     Alert.alert('Button was pressed!');
