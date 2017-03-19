@@ -44,7 +44,7 @@ export default class SuperMarketApp extends Component {
 
         <Button
             onPress={onButtonPress}
-            title="Press Here!"
+            title="Call!"
             color="#841584"
             disabled={!this.state.isSwitchOn}
         />
@@ -64,7 +64,12 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 50,
         color: 'red'
+    },
+    button: {
+        width: 500,
+        height: 500
     }
+
 });
 
 AppRegistry.registerComponent('SuperMarketApp', () => SuperMarketApp);
