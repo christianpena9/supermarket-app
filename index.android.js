@@ -11,7 +11,9 @@ import {
   Text,
   Button,
   View,
-  Alert
+  Alert,
+  Switch,
+  Platform
 } from 'react-native';
 //import Call from './components/Call.js';
 
@@ -21,9 +23,25 @@ const onButtonPress = () => {
 
 export default class SuperMarketApp extends Component {
 
+  constructor(){
+    super();
+    this.state = {
+      isSwitchOn:false
+    }
+}
+
   render() {
     return (
       <View style={styles.view}>
+        <Text style={styles.text}>
+          ARE YOU AVALIABLE?
+        </Text>
+
+        <Switch
+          onValueChange={(value) => this.setState({isSwitchOn: value})}
+          //onValueChange= {Alert.alert( "value is: " + this.state.isSwitchOn )}
+          value= {this.state.isSwitchOn}
+         />
 
         <Text style={styles.text}>Hello World</Text>
 
@@ -47,7 +65,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'green'
     },
     text: {
-        fontSize: 100,
+        fontSize: 50,
         color: 'red'
     }
 });
