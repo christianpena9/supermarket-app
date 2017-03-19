@@ -25,7 +25,7 @@ export default class SuperMarketApp extends Component {
   constructor(){
     super();
     this.state = {
-      isSwitchOn:true
+      isSwitchOn:false
     }
 }
 
