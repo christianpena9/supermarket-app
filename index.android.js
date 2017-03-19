@@ -42,8 +42,6 @@ export default class SuperMarketApp extends Component {
           value= {this.state.isSwitchOn}
          />
 
-        <Text style={styles.text}>Hello World</Text>
-
         <Button
             onPress={onButtonPress}
             title="Press Here!"
