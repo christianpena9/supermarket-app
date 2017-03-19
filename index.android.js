@@ -26,7 +26,7 @@ export default class SuperMarketApp extends Component {
   constructor(){
     super();
     this.state = {
-      isSwitchOn:false
+      isSwitchOn:true
     }
 }
 
@@ -49,7 +49,7 @@ export default class SuperMarketApp extends Component {
             onPress={onButtonPress}
             title="Press Here!"
             color="#841584"
-            disabled={true}
+            disabled={!this.state.isSwitchOn}
         />
 
       </View>
