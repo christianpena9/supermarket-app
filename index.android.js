@@ -45,7 +45,7 @@ export default class SuperMarketApp extends Component {
         <Button
             onPress={onButtonPress}
             title="Call!"
-            color="#841584"
+            color="#841585"
             disabled={!this.state.isSwitchOn}
         />
 
