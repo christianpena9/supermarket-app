@@ -13,21 +13,31 @@ import {
   View,
   Alert,
   Switch,
-  Platform
+  Platform,
+  TextInput
 } from 'react-native';
+import "./UserAgent";
+import io from "socket.io-client/dist/socket.io";
 
 const onButtonPress = () => {
     Alert.alert('Button was pressed!');
 };
 
 export default class SuperMarketApp extends Component {
-
   constructor(){
     super();
+    this.socket = io('http://localhost:8081', {jsonp: false})
     this.state = {
-      isSwitchOn:false
+      isSwitchOn:false,
+      text: null
     }
 }
+
+  handleChange(event){
+    this.setState({
+      text: event.nativeEvent.text
+    });
+  }
 
   render() {
     return (
@@ -38,7 +48,6 @@ export default class SuperMarketApp extends Component {
 
         <Switch
           onValueChange={(value) => this.setState({isSwitchOn: value})}
-          //onValueChange= {Alert.alert( "value is: " + this.state.isSwitchOn )}
           value= {this.state.isSwitchOn}
          />
 
@@ -49,6 +58,11 @@ export default class SuperMarketApp extends Component {
             disabled={!this.state.isSwitchOn}
         />
 
+        <TextInput
+          style={styles.input}
+          value={this.state.text}
+          onChange={this.handleChange.bind(this)}
+        />
       </View>
     );
   }
@@ -68,7 +82,13 @@ const styles = StyleSheet.create({
     button: {
         width: 500,
         height: 500
+    },
+    input:{
+      width: 600,
+      fontSize: 50,
+      color: 'yellow'
     }
+
 
 });
 
