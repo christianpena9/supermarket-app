@@ -7,8 +7,10 @@
 		"test": "jest"
 	},
 	"dependencies": {
+		"express": "^4.15.2",
 		"react": "~15.4.1",
-		"react-native": "0.42.3"
+		"react-native": "0.42.3",
+		"socket.io": "^1.7.3"
 	},
 	"devDependencies": {
 		"babel-jest": "19.0.0",
