@@ -24,12 +24,12 @@
         "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
@@ -96,16 +96,16 @@
         "source": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_radio.xml"
+        "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/res/merged/debug/layout/redbox_item_frame.xml",
         "source": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/res/layout/redbox_item_frame.xml"
     },
     {
-        "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view.xml"
+        "merged": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
         "merged": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -188,12 +188,12 @@
         "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
