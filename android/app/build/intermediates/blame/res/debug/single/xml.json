@@ -10,5 +10,9 @@
     {
         "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/res/xml/preferences.xml"
     }
 ]

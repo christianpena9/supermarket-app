@@ -4,6 +4,10 @@
         "source": "/Users/christianpena/Meteor/SuperMarketApp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
