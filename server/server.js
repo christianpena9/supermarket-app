@@ -9,8 +9,15 @@ const port    = process.env.PORT || 3000;
 io.on('connection', (socket) => {
   console.log("we have a new connection @ " + socket.id);
   // socket.emit('hello', 'can you hear me?', 1, 2, 'abc');
+  socket.on('disconnect', () =>{
+    console.log(socket.id, " has signed out!");
+  });
+  socket.on('connect', (socket) =>{
+    console.log("fully connected!!!");
+  });
 
 });
+
 
 // Once the server is online
 server.listen(port, ()=>console.log("server is running @ ", port));
