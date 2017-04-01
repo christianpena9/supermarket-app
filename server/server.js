@@ -12,11 +12,11 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () =>{
     console.log(socket.id, " has signed out!");
   });
-  socket.on('connect', (socket) =>{
-    console.log("fully connected!!!");
-  });
+
+  console.log(socket.on);
 
 });
+
 
 
 // Once the server is online

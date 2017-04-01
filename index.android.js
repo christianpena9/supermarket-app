@@ -27,11 +27,12 @@ export default class SuperMarketApp extends Component {
   constructor(){
     super();
     //has to listen to localhost but with actual IP Address
-    this.socket = io('http://10.126.169.109:3000', {jsonp: false});
+    this.socket = io('http://192.168.0.6:3000', {jsonp: false});
     this.state = {
       isSwitchOn:false,
       text: null
     }
+    console.log(this.socket);
 }
 
   handleChange(event){

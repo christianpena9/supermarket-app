@@ -26,11 +26,12 @@ const onButtonPress = () => {
 export default class SuperMarketApp extends Component {
   constructor(){
     super();
-    this.socket = io('http://localhost:3000', {jsonp: false})
+    this.socket = io('http://127.0.0.1:3000', {jsonp: false})
     this.state = {
       isSwitchOn:false,
       text: null
     }
+    console.log(this.socket);
 }
 
   handleChange(event){
