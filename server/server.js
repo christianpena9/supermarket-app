@@ -8,13 +8,15 @@ const port    = process.env.PORT || 3000;
 // The event will be called when a client is connected.
 io.on('connection', (socket) => {
   console.log("we have a new connection @ " + socket.id);
-  // socket.emit('hello', 'can you hear me?', 1, 2, 'abc');
+
   socket.on('disconnect', () =>{
     console.log(socket.id, " has signed out!");
   });
 
-  console.log(socket.on);
-
+  socket.on("client-send", (data) =>{
+    console.log("incoming msg---> "+ data);
+    io.sockets.emit("server-send", data);
+  });
 });
 
 
