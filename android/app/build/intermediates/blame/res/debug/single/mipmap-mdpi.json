@@ -1,18 +1,22 @@
 [
     {
-        "merged": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/jimmydla/Desktop/code/wdi/supermarket-app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/christianpena/Meteor/SuperMarketApp/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/christianpena/Meteor/SuperMarketApp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]
