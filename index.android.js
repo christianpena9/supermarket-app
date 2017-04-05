@@ -21,12 +21,12 @@ import { StackNavigator } from 'react-navigation';
 import "./UserAgent";
 import io from "socket.io-client/dist/socket.io";
 
+/* CUSTOM IMPORT SCREENS BELOW */
+import ReceiverScreen from './screens/ReceiverScreen';
+import ClientScreen from './screens/ClientScreen';
+
 /* CUSTOM IMPORT STYLES BELOW */
 import { styles } from './styles/mainStyle';
-
-const onButtonPress = () => {
-    Alert.alert('Button was pressed!');
-};
 
 export default class HomeScreen extends Component {
     constructor() {
@@ -97,33 +97,6 @@ backgroundColor: this.state.backColor}}>
                 <Text style={styles.text}>
                     ServerSaid--->{this.state.incomingText}
                 </Text>
-            </View>
-        );
-    }
-}
-
-/* RECEIVER SCREEN BELOW */
-class ReceiverScreen extends React.Component {
-    render() {
-        return(
-            <View style={styles.view}>
-                <Text>Receiver Screen</Text>
-            </View>
-        );
-    }
-}
-
-/* CLIENT SCREEN BELOW */
-class ClientScreen extends React.Component {
-    render() {
-        const { params } = this.props.navigation.state;
-        return(
-            <View style={styles.view}>
-                <Button
-                    title = 'Call Now!'
-                    onPress = {onButtonPress}
-                    disabled = { !params.isSwitchOn }
-                />
             </View>
         );
     }
