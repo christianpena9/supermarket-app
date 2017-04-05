@@ -12,6 +12,10 @@ import { styles } from '../styles/mainStyle';
 
 /* RECEIVER SCREEN BELOW */
 class ReceiverScreen extends React.Component {
+    constructor(props) {
+        super(props);
+        console.log(props);
+    }
     render() {
         return(
             <View style={styles.view}>
