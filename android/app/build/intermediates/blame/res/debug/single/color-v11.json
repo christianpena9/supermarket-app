@@ -1,27 +1,15 @@
 [
     {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
@@ -32,19 +20,39 @@
         "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
         "source": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

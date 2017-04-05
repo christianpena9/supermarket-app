@@ -1,352 +1,5 @@
 [
     {
-        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 117,
-                    "endOffset": 168
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 284,
-                        "endColumn": 117,
-                        "endOffset": 397
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 173,
-                    "endColumn": 107,
-                    "endOffset": 276
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 402,
-                        "endColumn": 107,
-                        "endOffset": 505
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 281,
-                    "endColumn": 122,
-                    "endOffset": 399
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 510,
-                        "endColumn": 122,
-                        "endOffset": 628
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 404,
-                    "endColumn": 111,
-                    "endOffset": 511
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 633,
-                        "endColumn": 111,
-                        "endOffset": 740
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 516,
-                    "endColumn": 112,
-                    "endOffset": 624
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 745,
-                        "endColumn": 112,
-                        "endOffset": 853
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 629,
-                    "endColumn": 87,
-                    "endOffset": 712
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 858,
-                        "endColumn": 87,
-                        "endOffset": 941
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 717,
-                    "endColumn": 106,
-                    "endOffset": 819
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 946,
-                        "endColumn": 106,
-                        "endOffset": 1048
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 824,
-                    "endColumn": 126,
-                    "endOffset": 946
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1053,
-                        "endColumn": 126,
-                        "endOffset": 1175
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 951,
-                    "endColumn": 81,
-                    "endOffset": 1028
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1180,
-                        "endColumn": 81,
-                        "endOffset": 1257
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1033,
-                    "endColumn": 115,
-                    "endOffset": 1144
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1262,
-                        "endColumn": 115,
-                        "endOffset": 1373
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1149,
-                    "endColumn": 110,
-                    "endOffset": 1255
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1378,
-                        "endColumn": 110,
-                        "endOffset": 1484
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1260,
-                    "endColumn": 98,
-                    "endOffset": 1354
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1489,
-                        "endColumn": 98,
-                        "endOffset": 1583
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1359,
-                    "endColumn": 112,
-                    "endOffset": 1467
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1588,
-                        "endColumn": 112,
-                        "endOffset": 1696
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1472,
-                    "endColumn": 103,
-                    "endOffset": 1571
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1701,
-                        "endColumn": 103,
-                        "endOffset": 1800
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1576,
-                    "endColumn": 113,
-                    "endOffset": 1685
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1805,
-                        "endColumn": 113,
-                        "endOffset": 1914
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1690,
-                    "endColumn": 125,
-                    "endOffset": 1811
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1919,
-                        "endColumn": 125,
-                        "endOffset": 2040
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1816,
-                    "endColumn": 99,
-                    "endOffset": 1911
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2045,
-                        "endColumn": 99,
-                        "endOffset": 2140
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1916,
-                    "endColumn": 100,
-                    "endOffset": 2012
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2145,
-                        "endColumn": 100,
-                        "endOffset": 2241
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn-rIN/values-kn-rIN.xml",
         "map": [
             {
@@ -694,7 +347,7 @@
         ]
     },
     {
-        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
+        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
         "map": [
             {
                 "to": {
@@ -705,7 +358,7 @@
                     "endOffset": 168
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -724,7 +377,7 @@
                     "endOffset": 276
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -743,7 +396,7 @@
                     "endOffset": 399
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -762,7 +415,7 @@
                     "endOffset": 511
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -781,7 +434,7 @@
                     "endOffset": 624
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -800,7 +453,7 @@
                     "endOffset": 712
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -819,7 +472,7 @@
                     "endOffset": 819
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -838,7 +491,7 @@
                     "endOffset": 946
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -857,7 +510,7 @@
                     "endOffset": 1028
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -876,7 +529,7 @@
                     "endOffset": 1144
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -895,7 +548,7 @@
                     "endOffset": 1255
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -914,7 +567,7 @@
                     "endOffset": 1354
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -933,7 +586,7 @@
                     "endOffset": 1467
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -952,7 +605,7 @@
                     "endOffset": 1571
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -971,7 +624,7 @@
                     "endOffset": 1685
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -990,7 +643,7 @@
                     "endOffset": 1811
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1009,7 +662,7 @@
                     "endOffset": 1911
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1028,7 +681,7 @@
                     "endOffset": 2012
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1735,7 +1388,7 @@
         ]
     },
     {
-        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
+        "outputFile": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn-rIN/values-kn-rIN.xml",
         "map": [
             {
                 "to": {
@@ -1746,7 +1399,7 @@
                     "endOffset": 168
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1765,7 +1418,7 @@
                     "endOffset": 276
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1784,7 +1437,7 @@
                     "endOffset": 399
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1803,7 +1456,7 @@
                     "endOffset": 511
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1822,7 +1475,7 @@
                     "endOffset": 624
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1841,7 +1494,7 @@
                     "endOffset": 712
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1860,7 +1513,7 @@
                     "endOffset": 819
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1879,7 +1532,7 @@
                     "endOffset": 946
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1898,7 +1551,7 @@
                     "endOffset": 1028
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1917,7 +1570,7 @@
                     "endOffset": 1144
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1936,7 +1589,7 @@
                     "endOffset": 1255
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1955,7 +1608,7 @@
                     "endOffset": 1354
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1974,7 +1627,7 @@
                     "endOffset": 1467
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1993,7 +1646,7 @@
                     "endOffset": 1571
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2012,7 +1665,7 @@
                     "endOffset": 1685
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2031,7 +1684,7 @@
                     "endOffset": 1811
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2050,7 +1703,7 @@
                     "endOffset": 1911
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2069,7 +1722,701 @@
                     "endOffset": 2012
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-kn-rIN/values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2145,
+                        "endColumn": 100,
+                        "endOffset": 2241
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 117,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endColumn": 117,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endColumn": 107,
+                    "endOffset": 276
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 107,
+                        "endOffset": 505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 281,
+                    "endColumn": 122,
+                    "endOffset": 399
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endColumn": 122,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 404,
+                    "endColumn": 111,
+                    "endOffset": 511
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 111,
+                        "endOffset": 740
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 516,
+                    "endColumn": 112,
+                    "endOffset": 624
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 112,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 629,
+                    "endColumn": 87,
+                    "endOffset": 712
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 87,
+                        "endOffset": 941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 717,
+                    "endColumn": 106,
+                    "endOffset": 819
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 946,
+                        "endColumn": 106,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 824,
+                    "endColumn": 126,
+                    "endOffset": 946
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1053,
+                        "endColumn": 126,
+                        "endOffset": 1175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 951,
+                    "endColumn": 81,
+                    "endOffset": 1028
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1180,
+                        "endColumn": 81,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1033,
+                    "endColumn": 115,
+                    "endOffset": 1144
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 115,
+                        "endOffset": 1373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1149,
+                    "endColumn": 110,
+                    "endOffset": 1255
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1378,
+                        "endColumn": 110,
+                        "endOffset": 1484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1260,
+                    "endColumn": 98,
+                    "endOffset": 1354
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1489,
+                        "endColumn": 98,
+                        "endOffset": 1583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1359,
+                    "endColumn": 112,
+                    "endOffset": 1467
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1588,
+                        "endColumn": 112,
+                        "endOffset": 1696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1472,
+                    "endColumn": 103,
+                    "endOffset": 1571
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1701,
+                        "endColumn": 103,
+                        "endOffset": 1800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1576,
+                    "endColumn": 113,
+                    "endOffset": 1685
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1805,
+                        "endColumn": 113,
+                        "endOffset": 1914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1690,
+                    "endColumn": 125,
+                    "endOffset": 1811
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1919,
+                        "endColumn": 125,
+                        "endOffset": 2040
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1816,
+                    "endColumn": 99,
+                    "endOffset": 1911
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2045,
+                        "endColumn": 99,
+                        "endOffset": 2140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1916,
+                    "endColumn": 100,
+                    "endOffset": 2012
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2145,
+                        "endColumn": 100,
+                        "endOffset": 2241
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 117,
+                    "endOffset": 168
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 284,
+                        "endColumn": 117,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 173,
+                    "endColumn": 107,
+                    "endOffset": 276
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 107,
+                        "endOffset": 505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 281,
+                    "endColumn": 122,
+                    "endOffset": 399
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endColumn": 122,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 404,
+                    "endColumn": 111,
+                    "endOffset": 511
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 111,
+                        "endOffset": 740
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 516,
+                    "endColumn": 112,
+                    "endOffset": 624
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 112,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 629,
+                    "endColumn": 87,
+                    "endOffset": 712
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 87,
+                        "endOffset": 941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 717,
+                    "endColumn": 106,
+                    "endOffset": 819
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 946,
+                        "endColumn": 106,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 824,
+                    "endColumn": 126,
+                    "endOffset": 946
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1053,
+                        "endColumn": 126,
+                        "endOffset": 1175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 951,
+                    "endColumn": 81,
+                    "endOffset": 1028
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1180,
+                        "endColumn": 81,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1033,
+                    "endColumn": 115,
+                    "endOffset": 1144
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1262,
+                        "endColumn": 115,
+                        "endOffset": 1373
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1149,
+                    "endColumn": 110,
+                    "endOffset": 1255
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1378,
+                        "endColumn": 110,
+                        "endOffset": 1484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1260,
+                    "endColumn": 98,
+                    "endOffset": 1354
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1489,
+                        "endColumn": 98,
+                        "endOffset": 1583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1359,
+                    "endColumn": 112,
+                    "endOffset": 1467
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1588,
+                        "endColumn": 112,
+                        "endOffset": 1696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1472,
+                    "endColumn": 103,
+                    "endOffset": 1571
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1701,
+                        "endColumn": 103,
+                        "endOffset": 1800
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1576,
+                    "endColumn": 113,
+                    "endOffset": 1685
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1805,
+                        "endColumn": 113,
+                        "endOffset": 1914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1690,
+                    "endColumn": 125,
+                    "endOffset": 1811
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1919,
+                        "endColumn": 125,
+                        "endOffset": 2040
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1816,
+                    "endColumn": 99,
+                    "endOffset": 1911
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2045,
+                        "endColumn": 99,
+                        "endOffset": 2140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1916,
+                    "endColumn": 100,
+                    "endOffset": 2012
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-kn-rIN\\values-kn-rIN.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

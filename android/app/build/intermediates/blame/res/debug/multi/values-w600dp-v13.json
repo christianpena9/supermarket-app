@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 169
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -86,6 +86,49 @@
         ]
     },
     {
+        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 63,
+                        "endOffset": 342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 347,
+                        "endColumn": 54,
+                        "endOffset": 397
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
         "map": [
             {
@@ -117,6 +160,49 @@
                 },
                 "from": {
                     "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 347,
+                        "endColumn": 54,
+                        "endOffset": 397
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 63,
+                        "endOffset": 342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -172,7 +258,7 @@
         ]
     },
     {
-        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "outputFile": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w600dp-v13/values-w600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -183,7 +269,7 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w600dp/values-w600dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -202,50 +288,7 @@
                     "endOffset": 169
                 },
                 "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 347,
-                        "endColumn": 54,
-                        "endOffset": 397
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 63,
-                    "endOffset": 114
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 283,
-                        "endColumn": 63,
-                        "endOffset": 342
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 119,
-                    "endColumn": 54,
-                    "endOffset": 169
-                },
-                "from": {
-                    "file": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",
+                    "file": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-w600dp/values-w600dp.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,

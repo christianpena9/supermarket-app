@@ -32,7 +32,9 @@ export default class HomeScreen extends Component {
     constructor() {
         super();
         //has to listen to localhost but with actual IP Address
-        this.socket = io('http://172.28.45.126:3000', {jsonp: false});
+        // Jimmy IP address 192.168.0.6
+        // Christian IP address 172.28.45.126
+        this.socket = io('http://192.168.0.6:3000', {jsonp: false});
         this.state = {
             isSwitchOn:false,
             text: "enter color",

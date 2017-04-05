@@ -1,19 +1,11 @@
 [
     {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.42.3\\res\\xml\\preferences.xml"
-    },
-    {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.42.3\\res\\xml\\preferences.xml"
-    },
-    {
-        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
-        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.42.3\\res\\xml\\preferences.xml"
-    },
-    {
         "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
         "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\socket.io\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.42.3\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\CPena\\Documents\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.42.3\\res\\xml\\preferences.xml"
     },
     {
         "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
@@ -22,5 +14,17 @@
     {
         "merged": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\jimmydla\\Desktop\\code\\wdi\\supermarket-app\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.42.3\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "/Users/christianpena/Meteor/supermarket-app/android/C:\\Users\\christianpena\\Meteor\\SuperMarketApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.42.3\\res\\xml\\preferences.xml"
     }
 ]
