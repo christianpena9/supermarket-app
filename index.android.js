@@ -34,7 +34,7 @@ export default class HomeScreen extends Component {
         //has to listen to localhost but with actual IP Address
         // Jimmy IP address 192.168.0.6
         // Christian IP address 172.28.45.126
-        this.socket = io('http://192.168.0.6:3000', {jsonp: false});
+        this.socket = io('http://172.20.10.10:3000', {jsonp: false});
         this.state = {
             isSwitchOn:false,
             text: "enter color",
@@ -54,25 +54,36 @@ export default class HomeScreen extends Component {
         this.setState({
             text: event.nativeEvent.text
         });
+        this.sendMe();
     }
+
+    updateSwitch = (value) => this.setState({isSwitchOn: value})
+
 
     sendMe() {
         this.socket.emit("client-send", this.state.text);
     }
 
+
     render() {
+      console.log("this is Switch value =",this.state.isSwitchOn);
         const { navigate } = this.props.navigation;
         return (
             // did inline styling to test incoming socket data
             <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
-backgroundColor: this.state.backColor}}>
+                          backgroundColor: this.state.backColor}}>
+
+                <Switch
+                  onValueChange={this.updateSwitch}
+                  value={this.state.isSwitchOn}
+                 />
 
                 <Text style={styles.text}>
                     ARE YOU AVALIABLE?
                 </Text>
 
                 <TouchableOpacity
-                    onPress = {() => navigate('ReceiverScreen')}
+                    onPress = {() => navigate('ReceiverScreen', { updateSwitch: this.updateSwitch, isSwitchOn: this.state.isSwitchOn })}
                     style = {styles.touch}>
                     <Text style={styles.sendText}>Receiver</Text>
                 </TouchableOpacity>
