@@ -32,13 +32,13 @@ export default class HomeScreen extends Component {
     constructor() {
         super();
         //has to listen to localhost but with actual IP Address
-        // Jimmy IP address 192.168.0.6
+        // Jimmy IP address 192.168.0.6/ 172.20.10.10
         // Christian IP address 172.28.45.126
         this.socket = io('http://172.20.10.10:3000', {jsonp: false});
         this.state = {
             isSwitchOn:false,
             text: "enter color",
-            incomingText: "waiting",
+            incomingText: null,
             backColor: "pink"
         }
         console.log(this.socket);
@@ -48,17 +48,36 @@ export default class HomeScreen extends Component {
             this.setState({ backColor: data });
             this.setState({ incomingText: data });
         });
+
+        this.socket.on("on-off", (data) =>{
+          this.setState({isSwitchOn: data});
+          this.setState({ incomingText: data });
+        })
     }
 
     handleChange(event) {
         this.setState({
             text: event.nativeEvent.text
-        });
-        this.sendMe();
+        },this.sendMe);
+    }
+    //
+    // checkPencil(){
+    //    this.setState({
+    //       pencil:!this.state.pencil,
+    //    }, this.updatingItem);
+    // }
+    // updatingItem(){
+    //     this.props.updateItem(this.state)
+    // }
+
+    checkSwitch(){
+      this.socket.emit("switch-stat", this.state.isSwitchOn)
     }
 
-    updateSwitch = (value) => this.setState({isSwitchOn: value})
-
+    updateSwitch = (value) => {
+      this.setState({isSwitchOn: value
+      },this.checkSwitch);
+    }
 
     sendMe() {
         this.socket.emit("client-send", this.state.text);

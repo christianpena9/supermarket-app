@@ -17,6 +17,11 @@ io.on('connection', (socket) => {
     console.log("incoming msg---> "+ data);
     io.sockets.emit("server-send", data);
   });
+
+  socket.on("switch-stat", (data) =>{
+    console.log("the switch = ", data);
+    io.sockets.emit("on-off", data)
+  })
 });
 
 
