@@ -18,7 +18,6 @@ io.on('connection', (socket) => {
     io.sockets.emit("server-send", data);
   });
 
-<<<<<<< HEAD
   socket.on('client-data', (data) => {
       console.log(data);
       io.emit('client-data', data);
