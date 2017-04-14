@@ -34,19 +34,23 @@ export default class HomeScreen extends Component {
         //has to listen to localhost but with actual IP Address
         // Jimmy IP address 192.168.0.6
         // Christian IP address 172.28.45.126
-        this.socket = io('http://172.20.10.10:3000', {jsonp: false});
+        this.socket = io('http://192.168.0.21:3000', {jsonp: false});
         this.state = {
-            isSwitchOn:false,
+            isSwitchOn: false,
             text: "enter color",
             incomingText: "waiting",
             backColor: "pink"
         }
-        console.log(this.socket);
 
         //data comes back and you can use it for anything
         this.socket.on("server-send", (data)=> {
             this.setState({ backColor: data });
             this.setState({ incomingText: data });
+        });
+
+        this.socket.emit('client-data', this.state.isSwitchOn);
+        this.socket.on('client-data', (data) => {
+            this.setState({ isSwitchOn: data });
         });
     }
 
@@ -57,17 +61,23 @@ export default class HomeScreen extends Component {
         this.sendMe();
     }
 
-    updateSwitch = (value) => this.setState({isSwitchOn: value})
+    updateSwitch = (value) => {
+        this.setState({isSwitchOn: value});
+        this.socket.emit('client-data', value);
+    }
 
 
     sendMe() {
         this.socket.emit("client-send", this.state.text);
     }
 
-
     render() {
-      console.log("this is Switch value =",this.state.isSwitchOn);
         const { navigate } = this.props.navigation;
+        let available;
+
+        // Updates messaging for Receiver
+        (this.state.isSwitchOn) ? available = 'ARE' : available = 'NOT';
+
         return (
             // did inline styling to test incoming socket data
             <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
@@ -79,14 +89,8 @@ export default class HomeScreen extends Component {
                  />
 
                 <Text style={styles.text}>
-                    ARE YOU AVALIABLE?
+                    YOU { available } AVALIABLE
                 </Text>
-
-                <TouchableOpacity
-                    onPress = {() => navigate('ReceiverScreen', { updateSwitch: this.updateSwitch, isSwitchOn: this.state.isSwitchOn })}
-                    style = {styles.touch}>
-                    <Text style={styles.sendText}>Receiver</Text>
-                </TouchableOpacity>
 
                 <TouchableOpacity
                     onPress = {() => navigate('ClientScreen', { isSwitchOn: this.state.isSwitchOn })}
@@ -97,7 +101,7 @@ export default class HomeScreen extends Component {
                 <TextInput
                     style={styles.input}
                     value={this.state.text}
-                    // onChangeText={(text)=> this.setState({text})}
+                    //onChangeText={(text)=> this.setState({text})}
                     onChange={this.handleChange.bind(this)}
                 />
 

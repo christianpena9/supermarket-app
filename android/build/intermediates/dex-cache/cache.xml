@@ -3,219 +3,219 @@
 
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_8fa64767ae77b9e8a16763a9bd1197240fc4623e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_62957ab6ac9286b136352fe7113d80c8b92af13f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_7a893aa66dd3820f98ffe3483084bc993e7e6586.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_70b07c5a30c2af3e989ef1ee245e78b579ef702e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_8cd4c69fe79ec75740e11f46ba9b7b27af00b8d5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_416b0b8fcd1aa86c627231e042862cb0e01dae12.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_9c4cbca3f8cd84b87d9c40fb8ba6194f90009ee0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_7e1dacd959cf6346ba80812bbc8f1d33975535eb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_6664ebab779a9161810c70b2661d6a2416083807.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_fb889b0ab7bd05cd4d0e435f4a48f34a1e0c1c81.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="962b06c207e808c0557ffd6163ac584025a96021">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.42.3_1a625a29416fe4cdf866a2575171c1137265fa53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_b4a76c933a0a15434dbe584a7df25b03c4248479.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_6a92db1391dfdd6c188420e5cca75c2d80c90a9d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_99b4a51aa6da8f874fa909135e12042eb614f278.jar" />
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e6997f9e64b68cc183dbbeb5dc345cb1802be279.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_2328c5511538f51cc6e413f39eafb880d13258c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_08e9a07923e9979f39e99d3a0ebb0ee6ab517b94.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_eb5239eb2f46ac383b6504f042f3eea44a792dbe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_ef1174b40ec433e03cc7780a772408bd4c09058d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_e290dbb1bd0bc1da8ec3882ab9e853be52462c99.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_d219a1f65b025cb486694cd01f53f2bca4ccdf55.jar" />
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_981fa8f35f9d15bbeca8dd382b622bf61b9928f5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_6d74bfb62541e66cf7a0bf6542b7f292d91f3e21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="962b06c207e808c0557ffd6163ac584025a96021">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.42.3_e81b0e9ff8ad9548ca13311a49af6484e55e8079.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_37a995000694976ab4d92b3411c535c8a5372d90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_367feb90b3941d34965e3d3a940865322259191b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_eedc07249178a16b3c4e59b72727a0c2d2148e2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_06350634be9cfa23beafbf6d74748760a468715e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_ca88d162fb9cd44fcd42bd8db9a5e7421fb19b9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_4edea4a1d295308ecba66368fb15f577a4c7c794.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_8804466340180914c7b0421d6e3a76f22621c9b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_441a42f13fe77952fbe13b0f2ef10909e174627e.jar" />
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_43ef7dedf38dac4360ae5f111ed65ae66cb62328.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_b3d28a6cfec02950342e46e729474fe2da054f46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_f779ae4cfc3cfad77a88eef40aa00f67fe5580ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_25ef82a92e31ce33330fd6f923bc21d702b7caad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_d98dbd6e31b33b380eae3dd8aad4a79d417809bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_41ed184a79631f992f339a44cd5dc26cedc7e00a.jar" />
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_f3351b76c3ad8b776f88c7eb8c1b9731cf1d58ab.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_1aef07c0d2b0f48a30b8931cb1bc9da14f93d139.jar" />
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_0d87da3c08e5b184df896e51669aa0a63e044637.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_adc90fec8a9bebf2c8c2d7ae6f9c833f1ceb7369.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_1539c2268373a0f3127930cadf83e77a4f85f4cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_aca225bbe8b2975dd3e4fde582267e553148e853.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_c1a14c56d1b3d2447697d8f6a5851b6f40ca368f.jar" />
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_1c1542b56687bc058d0ee84d3564fe9c7d153aa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_79dfbcbcb72202c226789ef4fa5b01daffcff2c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/Users/christianpena/Meteor/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_f8613dc92e5ae783a45d7cbcacf33766df0d6c03.jar" />
     </item>
 
 </items>

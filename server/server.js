@@ -9,14 +9,20 @@ const port    = process.env.PORT || 3000;
 io.on('connection', (socket) => {
   console.log("we have a new connection @ " + socket.id);
 
-  socket.on('disconnect', () =>{
+  socket.on('disconnect', () => {
     console.log(socket.id, " has signed out!");
   });
 
-  socket.on("client-send", (data) =>{
+  socket.on("client-send", (data) => {
     console.log("incoming msg---> "+ data);
     io.sockets.emit("server-send", data);
   });
+
+  socket.on('client-data', (data) => {
+      console.log(data);
+      io.emit('client-data', data);
+  });
+
 });
 
 
