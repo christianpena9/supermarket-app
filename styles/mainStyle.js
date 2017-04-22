@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     },
     text: {
         fontSize: 50,
-        color: 'red'
+        color: 'rgb(10,165,255)'
     },
     sendText: {
         textAlign: 'center',
@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
     input: {
         width: 400,
         fontSize: 50,
-        color: 'yellow'
+        color: 'rgb(30,30,30)'
     },
     touch: {
         width: 110,
