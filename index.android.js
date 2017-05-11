@@ -32,9 +32,9 @@ export default class HomeScreen extends Component {
     constructor() {
         super();
         //has to listen to localhost but with actual IP Address
-        // Jimmy IP address 192.168.0.6/ 172.20.10.10
+        // Jimmy IP address 192.168.0.3
         // Christian IP address 172.28.45.126
-        this.socket = io('http://192.168.0.6:3000', {jsonp: false});
+        this.socket = io('http://192.168.0.3:3000', {jsonp: false});
         this.state = {
             isSwitchOn: false,
             text: "enter color",
@@ -42,23 +42,27 @@ export default class HomeScreen extends Component {
             backColor: "rgb(245,245,245)"
         }
 
-        //data comes back and you can use it for anything
+        //INCOMING DATA
         this.socket.on("server-send", (data)=> {
-            // this.setState({ backColor: data });
             this.setState({ incomingText: data });
         });
 
-        this.socket.emit('client-data', this.state.isSwitchOn);
-        this.socket.on('client-data', (data) => {
-            this.setState({ isSwitchOn: data });
+        this.socket.on('isSwitchOn-server', (data) => {
+          this.setState({ isSwitchOn: data });
         });
 
         this.socket.on("on-off", (data) =>{
           this.setState({isSwitchOn: data});
           this.setState({ incomingText: data });
         });
+
+
+        // OUTGOING DATA
+        this.socket.emit('isSwitchOn-client', this.state.isSwitchOn);
     }
 
+
+    //FUNCTIONS
     handleChange(event) {
         this.setState({
             text: event.nativeEvent.text
@@ -71,7 +75,7 @@ export default class HomeScreen extends Component {
 
     updateSwitch = (value) => {
         this.setState({isSwitchOn: value});
-        this.socket.emit('client-data', value);
+        this.socket.emit('isSwitchOn-client', value);
     }
 
     sendMe() {
@@ -90,14 +94,15 @@ export default class HomeScreen extends Component {
             <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
                           backgroundColor: this.state.backColor}}>
 
+                <Text style={styles.text}>
+                  YOU { available } AVALIABLE
+                </Text>
+
                 <Switch
                   onValueChange={this.updateSwitch}
                   value={this.state.isSwitchOn}
                  />
 
-                <Text style={styles.text}>
-                    YOU { available } AVALIABLE
-                </Text>
 
                 <TouchableOpacity
                     onPress = {() => navigate('ClientScreen', { isSwitchOn: this.state.isSwitchOn })}
@@ -105,14 +110,14 @@ export default class HomeScreen extends Component {
                     <Text style={styles.sendText}>Client</Text>
                 </TouchableOpacity>
 
-                <TextInput
+                {/* <TextInput
                     style={styles.input}
                     value={this.state.text}
                     //onChangeText={(text)=> this.setState({text})}
                     onChange={this.handleChange.bind(this)}
-                />
+                /> */}
 
-                <TouchableOpacity
+                {/* <TouchableOpacity
                     onPress = {() => {this.sendMe()}}
                     style = {styles.touch}>
                     <Text style={styles.sendText}>Send</Text>
@@ -120,7 +125,7 @@ export default class HomeScreen extends Component {
 
                 <Text style={styles.text}>
                     ServerSaid--->{this.state.incomingText}
-                </Text>
+                </Text> */}
             </View>
         );
     }

@@ -5,10 +5,14 @@ export const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'green'
+        backgroundColor: 'rgb(240,240,240)'
+    },
+    order: {
+      fontSize: 40,
+      color: "rgb(10,165,255)"
     },
     text: {
-        fontSize: 50,
+        fontSize: 40,
         color: 'rgb(10,165,255)'
     },
     sendText: {

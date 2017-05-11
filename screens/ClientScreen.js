@@ -21,20 +21,18 @@ class ClientScreen extends React.Component {
     constructor() {
         super();
 
-        this.socket = io('http://192.168.0.6:3000', {jsonp: false});
+        this.socket = io('http://192.168.0.3:3000', {jsonp: false});
 
         this.state = {
-            testData: false
+            Data: false,
+            testData: "false"
         }
 
-        //data comes back and you can use it for anything
-        // this.socket.on('client-data', (data) => {
-        //     this.setState({ testData: data });
-        // });
 
-        //this.socket.emit('client-data', this.state.testData);
-        this.socket.on('client-data', (data) => {
-            this.setState({ testData: data });
+
+        this.socket.on('isSwitchOn-server', (data) => {
+          this.setState({ Data: data });
+          this.setState({ testData: data });
         });
     }
 
@@ -43,10 +41,14 @@ class ClientScreen extends React.Component {
 
         return(
             <View style={styles.view}>
+                <Text style={styles.order}>
+                  Place your order now!
+                </Text>
                 <Button
+                    style={styles.touch}
                     title = 'Call Now!'
                     onPress = {onButtonPress}
-                    disabled = { !this.state.testData }
+                    disabled = { !this.state.Data }
                 />
             </View>
         );

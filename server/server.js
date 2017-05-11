@@ -18,9 +18,9 @@ io.on('connection', (socket) => {
     io.sockets.emit("server-send", data);
   });
 
-  socket.on('client-data', (data) => {
-      console.log(data);
-      io.emit('client-data', data);
+  socket.on('isSwitchOn-client', (data) => {
+      console.log("is switch on? =>", data);
+      io.sockets.emit('isSwitchOn-server', data);
   });
 
   socket.on("switch-stat", (data) =>{
