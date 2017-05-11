@@ -12,9 +12,9 @@ import io from "socket.io-client/dist/socket.io";
 /* CUSTOM IMPORT STYLES BELOW */
 import { styles } from '../styles/mainStyle';
 
-const onButtonPress = () => {
-    Alert.alert('Button was pressed!');
-};
+// const onButtonPress = () => {
+//   this.socket.emit('calling-client', true);
+// };
 
 /* CLIENT SCREEN BELOW */
 class ClientScreen extends React.Component {
@@ -36,7 +36,11 @@ class ClientScreen extends React.Component {
         });
     }
 
+
     render() {
+      onButtonPress = () => {
+        this.socket.emit('calling-client', false);
+      };
         const { params } = this.props.navigation.state;
 
         return(

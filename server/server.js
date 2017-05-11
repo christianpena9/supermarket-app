@@ -23,6 +23,11 @@ io.on('connection', (socket) => {
       io.sockets.emit('isSwitchOn-server', data);
   });
 
+  socket.on('calling-client', (data) => {
+      console.log("calling data=>", data);
+      io.sockets.emit('calling-server', data);
+  });
+
   socket.on("switch-stat", (data) =>{
     console.log("the switch = ", data);
     io.sockets.emit("on-off", data)
