@@ -61,9 +61,6 @@ export default class HomeScreen extends Component {
         }
 
         //INCOMING DATA
-        this.socket.on("server-send", (data)=> {
-            this.setState({ incomingText: data });
-        });
 
         this.socket.on('isSwitchOn-server', (data) => {
           console.log(data);
@@ -241,7 +238,6 @@ export default class HomeScreen extends Component {
             backgroundColor: this.state.backColor}}>
 
               {homePage}
-              {/* {callPage} */}
             </View>
         );
     }
