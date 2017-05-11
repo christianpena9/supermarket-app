@@ -88,9 +88,7 @@ export default class HomeScreen extends Component {
   }
 
   startCall() {
-      //const configuration = {"iceServers": [{"url": "stun:stun.l.google.com:19302"}]};
-      //const pc1 = new RTCPeerConnection(configuration);
-      //const pc2 = new RTCPeerConnection(configuration);
+
       const constraints = {
           audio: true,
           video: {
@@ -102,12 +100,11 @@ export default class HomeScreen extends Component {
           }
       };
 
-      var successCallback = (stream) => {
-          this.setState({
-              videoURL : stream.toURL()
-          });
-          //pc.addStream(stream);
-          console.log(stream.toURL());
+      var successCallback = () => {
+          // this.setState({
+          //     videoURL : "hello videoURL"
+          // });
+          // console.log(stream.toURL());
       }
 
       var errorCallback = (error) => {
@@ -117,16 +114,6 @@ export default class HomeScreen extends Component {
 
       getUserMedia(constraints, successCallback, errorCallback);
 
-      // pc.createOffer((desc) => {
-      //     pc.setLocalDescription(desc, () => {
-      //         // Send pc.localDescription to peer
-      //         console.log('pc.setLocalDescription');
-      //     }, (e) => { throw e; });
-      // }, (e) => { throw e; });
-      //
-      // pc.onicecandidate = (event) => {
-      //     console.log('onicecandidate', event);
-      // };
   } // end of startCall
 
   hangUp() {
