@@ -101,10 +101,10 @@ export default class HomeScreen extends Component {
       };
 
       var successCallback = () => {
-          // this.setState({
-          //     videoURL : "hello videoURL"
-          // });
-          // console.log(stream.toURL());
+          this.setState({
+              videoURL : "hello videoURL"
+          });
+          console.log(stream.toURL());
       }
 
       var errorCallback = (error) => {
@@ -224,7 +224,7 @@ export default class HomeScreen extends Component {
             <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
             backgroundColor: this.state.backColor}}>
 
-              {homePage}
+              {homePage};
             </View>
         );
     }
