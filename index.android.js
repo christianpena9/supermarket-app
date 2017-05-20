@@ -224,7 +224,7 @@ export default class HomeScreen extends Component {
             <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
             backgroundColor: this.state.backColor}}>
 
-              {homePage};
+              {homePage}
             </View>
         );
     }
@@ -233,31 +233,13 @@ export default class HomeScreen extends Component {
 /* CUSTOM ROUTE BELOW */
 const SuperMarketApp = StackNavigator({
     Home: {
-        screen: HomeScreen,
-        navigationOptions: {
-            title: 'Welcome',
-            header: {
-                visible: false
-            }
-        }
+        screen: HomeScreen
     },
     ClientScreen: {
-        screen: ClientScreen,
-        navigationOptions: {
-            title: 'Client Screen',
-            header: {
-                visible: false
-            }
-        }
+        screen: ClientScreen
     },
     ReceiverScreen: {
-        screen: ReceiverScreen,
-        navigationOptions: {
-            title: 'Receiver Screen',
-            header: {
-                visible: false
-            }
-        }
+        screen: ReceiverScreen
     }
 });
 
