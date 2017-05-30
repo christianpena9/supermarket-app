@@ -42,12 +42,40 @@ const window = Dimensions.get('window');
 
 
 export default class HomeScreen extends Component {
+  startCall() {
+
+      const constraints = {
+          audio: true,
+          video: {
+              mandatory: {
+                  width: 0,
+                  height: 0,
+                  minFrameRate: 30
+              }
+          }
+      };
+
+      var successCallback = () => {
+          this.setState({
+              videoURL : "hello videoURL"
+          });
+          console.log(stream.toURL());
+      }
+
+      var errorCallback = (error) => {
+          console.log("Oooops we got an error!", error.message);
+          throw error;
+      }
+
+      getUserMedia(constraints, successCallback, errorCallback);
+
+  } // end of startCall
     constructor() {
         super();
         //has to listen to localhost but with actual IP Address
         // Jimmy IP address 192.168.0.3
         // Christian IP address 172.28.45.126
-        this.socket = io('http://192.168.0.7:3000', {jsonp: false});
+        this.socket = io('http://192.168.0.4:3000', {jsonp: false});
         this.state = {
             isSwitchOn: false,
             text: "enter color",
@@ -87,34 +115,7 @@ export default class HomeScreen extends Component {
       this.startCall();
   }
 
-  startCall() {
 
-      const constraints = {
-          audio: true,
-          video: {
-              mandatory: {
-                  width: 0,
-                  height: 0,
-                  minFrameRate: 30
-              }
-          }
-      };
-
-      var successCallback = () => {
-          this.setState({
-              videoURL : "hello videoURL"
-          });
-          console.log(stream.toURL());
-      }
-
-      var errorCallback = (error) => {
-          console.log("Oooops we got an error!", error.message);
-          throw error;
-      }
-
-      getUserMedia(constraints, successCallback, errorCallback);
-
-  } // end of startCall
 
   hangUp() {
     this.setState({videoURL:null});
