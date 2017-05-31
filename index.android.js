@@ -144,7 +144,8 @@ export default class HomeScreen extends Component {
     }
 
     render() {
-
+      console.log(this);
+      console.log(this.props.navigation);
         // variables to store TouchableOpacity component
         let answerCall  = null;
         let declineCall = null;
