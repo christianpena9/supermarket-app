@@ -43,222 +43,223 @@ const window = Dimensions.get('window');
 var videoStream = {};
 
 export default class HomeScreen extends Component {
-    constructor() {
-        super();
-        //has to listen to localhost but with actual IP Address
-        // Jimmy IP address 192.168.0.3
-        // Christian IP address 172.28.45.126
-        this.socket = io('http://172.20.10.10:3000', {jsonp: false});
-        this.state = {
-            isSwitchOn: false,
-            text: "enter color",
-            incomingText: null,
-            backColor: "rgb(245,245,245)",
-            callPage: false,
-            homePage: true,
-            videoURL : null,
-            status: true,
-            endCallStatus: true
-        }
-
-        //INCOMING DATA
-
-        this.socket.on('isSwitchOn-server', (data) => {
-          console.log(data);
-          this.setState({ isSwitchOn: data });
-        });
-
-        this.socket.on("calling-server", (data)=> {
-            console.log(data);
-            this.setState({ homePage: data });
-        });
-
-
-        // OUTGOING DATA
-        this.socket.emit('isSwitchOn-client', this.state.isSwitchOn);
+  constructor() {
+    super();
+    //has to listen to localhost but with actual IP Address
+    // Jimmy IP address 192.168.0.3
+    // Christian IP address 172.28.45.126
+    this.socket = io('http://172.20.10.10:3000', {jsonp: false});
+    this.state = {
+      isSwitchOn: false,
+      text: "enter color",
+      incomingText: null,
+      backColor: "rgb(245,245,245)",
+      callPage: false,
+      homePage: true,
+      videoURL : null,
+      status: true,
+      endCallStatus: true
     }
 
+    //INCOMING DATA
+
+    this.socket.on('isSwitchOn-server', (data) => {
+      console.log(data);
+      this.setState({ isSwitchOn: data });
+    });
+
+    this.socket.on("calling-server", (data)=> {
+      console.log(data);
+      this.setState({ homePage: data });
+    });
 
 
-    //RTC REQUIREMENTS
-    toggleStatus() {
-      this.setState({
-        status:!this.state.status, endCallStatus: false
-      });
-      this.startCall();
+    // OUTGOING DATA
+    this.socket.emit('isSwitchOn-client', this.state.isSwitchOn);
   }
 
+
+  //RTC REQUIREMENTS
   startCall() {
 
     const constraints = {
-              audio: true,
-              video: {
-                  mandatory: {
-                      width: 0,
-                      height: 0,
-                      minFrameRate: 30
-                  }
-              }
-          };
+      audio: true,
+      video: {
+        mandatory: {
+          width: 0,
+          height: 0,
+          minFrameRate: 30
+        }
+      }
+    };
 
-          var successCallback = (stream) => {
-            if (videoStream.run === undefined) {
-              this.setState({
-                videoURL : stream.toURL(),
-                status:!this.state.status,
-                endCallStatus: false
-              });
-              videoStream = stream;
-              videoStream.run = true;
+    var successCallback = (stream) => {
+      if (videoStream.run === undefined) {
+        this.setState({
+          videoURL : stream.toURL(),
+          status:!this.state.status,
+          endCallStatus: false
+        });
+        videoStream = stream;
+        videoStream.run = true;
 
-              console.log("1st if stat/ new URL is = ", this.state.videoURL);
-              console.log(stream.toURL);
-              console.log(stream.run);
-            } else{
-              this.setState({
-                videoURL : videoStream.toURL(),
-                status:!this.state.status,
-                endCallStatus: false
-              });
-              console.log("else stat/ new URL is = ", this.state.videoURL);
-              console.log(videoStream.toURL);
-              console.log(videoStream.run);
-            }
-          }
+        console.log("1st if stat/ new URL is = ", this.state.videoURL);
+        console.log(stream.toURL);
+        console.log(stream.run);
+      }
+      else{
+        this.setState({
+          videoURL : videoStream.toURL(),
+          status:!this.state.status,
+          endCallStatus: false
+        });
+        console.log("else stat/ new URL is = ", this.state.videoURL);
+        console.log(videoStream.toURL);
+        console.log(videoStream.run);
+      }
+    }
 
-          var errorCallback = (error) => {
-              console.log("Oooops we got an error!", error.message);
-              throw error;
-          }
+    var errorCallback = (error) => {
+      console.log("Oooops we got an error!", error.message);
+      throw error;
+    }
 
-          getUserMedia(constraints, successCallback, errorCallback);
-      } // end of startCall
+    getUserMedia(constraints, successCallback, errorCallback);
+  }
+  // end of startCall
 
+
+
+  //FUNCTIONS
+
+  // Function to disabled the call
   hangUp() {
     this.setState({videoURL:null});
     this.setState({status:true});
     this.setState({endCallStatus:true});
   }
 
-    //FUNCTIONS
-    handleChange(event) {
-        this.setState({
-            text: event.nativeEvent.text
-        },this.sendMe);
+  // Function to interchange answer/decline/end buttons and ...
+  // calls the fucntion to start call
+  toggleStatus() {
+    this.setState({
+      status:!this.state.status, endCallStatus: false
+    });
+    this.startCall();
+  }
+
+  checkSwitch() {
+    this.socket.emit("switch-stat", this.state.isSwitchOn)
+  }
+
+  updateSwitch = (value) => {
+    this.setState({isSwitchOn: value});
+    this.socket.emit('isSwitchOn-client', value);
+  }
+
+  sendMe() {
+    this.socket.emit("client-send", this.state.text);
+  }
+
+  render() {
+    // variables to store TouchableOpacity component
+    let answerCall  = null;
+    let declineCall = null;
+    let endCall     = null;
+
+    // checking the status, if true then take TouchableOpacity
+    // and save it to the variable
+    if(this.state.status) {
+      answerCall =
+      <TouchableOpacity style={styles.answerCall} onPress = { () => this.toggleStatus() } >
+        <Text style={styles.butText}>Answer</Text>
+      </TouchableOpacity>;
+
+      declineCall =
+      <TouchableOpacity style={styles.declineCall} onPress={ () => this.setState({homePage: true}) }>
+        <Text style={styles.butText}>Decline</Text>
+      </TouchableOpacity>;
     }
 
-    checkSwitch() {
-      this.socket.emit("switch-stat", this.state.isSwitchOn)
+    if(!this.state.endCallStatus) {
+      endCall =
+      <TouchableOpacity style={styles.endCall} onPress={ () => this.hangUp() }>
+        <Text style={styles.butText}>End</Text>
+      </TouchableOpacity>;
     }
 
-    updateSwitch = (value) => {
-        this.setState({isSwitchOn: value});
-        this.socket.emit('isSwitchOn-client', value);
+    const { navigate } = this.props.navigation;
+    let available;
+
+    // Updates messaging for Receiver
+    (this.state.isSwitchOn) ? available = 'ARE' : available = 'NOT';
+
+    if (this.state.homePage) {
+      homePage =
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
+        backgroundColor: this.state.backColor}}>
+
+        <Text style={styles.text}>
+          YOU { available } AVALIABLE
+        </Text>
+
+        <Switch
+          onValueChange={this.updateSwitch}
+          value={this.state.isSwitchOn}
+         />
+
+        <TouchableOpacity
+          onPress = {() => navigate('ClientScreen', { isSwitchOn: this.state.isSwitchOn })}
+          style = {styles.touch}>
+          <Text style={styles.sendText}>Client</Text>
+        </TouchableOpacity>
+      </View>
+
+    }
+    else {
+      homePage =
+      <View style={styles.container}>
+        <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
+        <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
+        {endCall}
+        {answerCall}
+        {declineCall}
+      </View>
     }
 
-    sendMe() {
-        this.socket.emit("client-send", this.state.text);
+    if (this.state.callPage) {
+      callPage =
+      <View style={styles.container}>
+        <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
+        <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
+        {endCall}
+        {answerCall}
+        {declineCall}
+      </View>
     }
 
-    render() {
+    return (
+      // did inline styling to test incoming socket data
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',backgroundColor: this.state.backColor}}>
 
-        // variables to store TouchableOpacity component
-        let answerCall  = null;
-        let declineCall = null;
-        let endCall     = null;
+        {homePage}
 
-        // checking the status, if true then take TouchableOpacity
-      // and save it to the variable
-      if(this.state.status) {
-          answerCall =
-            <TouchableOpacity style={styles.answerCall} onPress = { () => this.toggleStatus() } >
-                <Text style={styles.butText}>Answer</Text>
-            </TouchableOpacity>;
-          declineCall =
-            <TouchableOpacity style={styles.declineCall} onPress={ () => this.setState({homePage: true}) }>
-                <Text style={styles.butText}>Decline</Text>
-            </TouchableOpacity>;
-      }
-
-      if(!this.state.endCallStatus) {
-          endCall =
-          <TouchableOpacity style={styles.endCall} onPress={ () => this.hangUp() }>
-              <Text style={styles.butText}>End</Text>
-          </TouchableOpacity>;
-      }
-
-        const { navigate } = this.props.navigation;
-        let available;
-
-        // Updates messaging for Receiver
-        (this.state.isSwitchOn) ? available = 'ARE' : available = 'NOT';
-
-        if (this.state.homePage) {
-          homePage =
-          <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
-            backgroundColor: this.state.backColor}}>
-
-            <Text style={styles.text}>
-              YOU { available } AVALIABLE
-            </Text>
-
-            <Switch
-              onValueChange={this.updateSwitch}
-              value={this.state.isSwitchOn}
-             />
-
-
-            <TouchableOpacity
-                onPress = {() => navigate('ClientScreen', { isSwitchOn: this.state.isSwitchOn })}
-                style = {styles.touch}>
-                <Text style={styles.sendText}>Client</Text>
-            </TouchableOpacity>
-
-          </View>
-        } else {
-          homePage =
-          <View style={styles.container}>
-            <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
-            <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
-            {endCall}
-            {answerCall}
-            {declineCall}
-          </View>
-        }
-
-        if (this.state.callPage) {
-          callPage =
-          <View style={styles.container}>
-            <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
-            <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
-            {endCall}
-            {answerCall}
-            {declineCall}
-          </View>
-
-        }
-        return (
-            // did inline styling to test incoming socket data
-            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
-            backgroundColor: this.state.backColor}}>
-
-              {homePage}
-            </View>
-        );
-    }
+      </View>
+    );
+  }
 }
 
 /* CUSTOM ROUTE BELOW */
 const SuperMarketApp = StackNavigator({
-    Home: {
-        screen: HomeScreen
-    },
-    ClientScreen: {
-        screen: ClientScreen
-    },
-    ReceiverScreen: {
-        screen: ReceiverScreen
-    }
+  Home: {
+    screen: HomeScreen
+  },
+  ClientScreen: {
+    screen: ClientScreen
+  },
+  ReceiverScreen: {
+    screen: ReceiverScreen
+  }
 });
 
 AppRegistry.registerComponent('SuperMarketApp', () => SuperMarketApp);
