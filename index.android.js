@@ -42,27 +42,24 @@ export default class HomeScreen extends Component {
     //has to listen to localhost but with actual IP Address
     // Jimmy IP address 192.168.0.3
     // Christian IP address 172.28.45.126
-    this.socket = io('http://192.168.0.21:3000', {jsonp: false});
+    this.socket = io('http://192.168.23.217:3000', {jsonp: false});
     this.state = {
       isSwitchOn: false,
-      text: "enter color",
-      incomingText: null,
       backColor: "rgb(245,245,245)",
-      callPage: false,
       homePage: true,
       videoURL : null,
       status: true,
-      endCallStatus: true
+      endCallButton: false
     }
 
     //INCOMING DATA
     this.socket.on('isSwitchOn-server', (data) => {
-      console.log(data);
+      console.log("incoming data from server switch-stat =>", data);
       this.setState({ isSwitchOn: data });
     });
 
     this.socket.on("calling-server", (data)=> {
-      console.log(data);
+      console.log("incoming data from server to update homePage =>", data);
       this.setState({ homePage: data });
     });
 
@@ -124,6 +121,15 @@ export default class HomeScreen extends Component {
 
 
   //FUNCTIONS
+  componentDidMount(){
+    console.log(
+      "is switch on = ", this.state.isSwitchOn,
+      "home page is = ", this.state.homePage,
+      "videoURL is  = ", this.state.videoURL,
+      "status is  = ", this.state.status,
+      "end call button is  = ", this.state.endCallButton
+    );
+  }
 
   // Function to disabled the call
   hangUp() {
@@ -136,7 +142,7 @@ export default class HomeScreen extends Component {
   // calls the fucntion to start call
   toggleStatus() {
     this.setState({
-      status:!this.state.status, endCallStatus: false
+      status:!this.state.status
     });
     this.startCall();
   }
@@ -155,6 +161,12 @@ export default class HomeScreen extends Component {
   }
 
   render() {
+    const { navigate } = this.props.navigation;
+
+    // Updates messaging for Receiver
+    let available;
+    (this.state.isSwitchOn) ? available = 'ARE' : available = 'NOT';
+
     // variables to store TouchableOpacity component
     let answerCall  = null;
     let declineCall = null;
@@ -163,30 +175,22 @@ export default class HomeScreen extends Component {
     // checking the status, if true then take TouchableOpacity
     // and save it to the variable
     if(this.state.status) {
-      answerCall =
+      callButtons =
       <TouchableOpacity style={styles.answerCall} onPress = { () => this.toggleStatus() } >
         <Text style={styles.butText}>Answer</Text>
       </TouchableOpacity>;
 
-      declineCall =
       <TouchableOpacity style={styles.declineCall} onPress={ () => this.setState({homePage: true}) }>
         <Text style={styles.butText}>Decline</Text>
       </TouchableOpacity>;
-    }
-
-    if(!this.state.endCallStatus) {
-      endCall =
+    }else {
+      callButtons =
       <TouchableOpacity style={styles.endCall} onPress={ () => this.hangUp() }>
         <Text style={styles.butText}>End</Text>
       </TouchableOpacity>;
     }
 
-    const { navigate } = this.props.navigation;
-    let available;
-
-    // Updates messaging for Receiver
-    (this.state.isSwitchOn) ? available = 'ARE' : available = 'NOT';
-
+    // -------------------MAIN PAGE-----------------------
     if (this.state.homePage) {
       homePage =
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
@@ -207,29 +211,27 @@ export default class HomeScreen extends Component {
           <Text style={styles.sendText}>Client</Text>
         </TouchableOpacity>
       </View>
-    }
-
-    else {
+    }else {
+      // -----------------CALL PAGE------------------------
       homePage =
       <View style={styles.container}>
         <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
         <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
-        {endCall}
-        {answerCall}
-        {declineCall}
+        {callButtons}
+        {callButtons}
       </View>
     }
 
-    if (this.state.callPage) {
-      callPage =
-      <View style={styles.container}>
-        <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
-        <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
-        {endCall}
-        {answerCall}
-        {declineCall}
-      </View>
-    }
+    // if (this.state.callPage) {
+    //   callPage =
+    //   <View style={styles.container}>
+    //     <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
+    //     <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
+    //     {endCall}
+    //     {answerCall}
+    //     {declineCall}
+    //   </View>
+    // }
 
     return (
       // did inline styling to test incoming socket data
