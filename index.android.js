@@ -126,9 +126,12 @@ export default class HomeScreen extends Component {
 
   // Function to disabled the call
   hangUp() {
-    this.setState({videoURL:null});
-    this.setState({answerCallButton:!this.state.answerCallButton});
-    this.setState({endCallButton:!this.state.endCallButton});
+    this.setState({
+      videoURL: null,
+      answerCallButton: !this.state.answerCallButton,
+      endCallButton: !this.state.endCallButton,
+      homePage: !this.state.homePage
+    });
   }
 
   checkSwitch() {
@@ -177,9 +180,7 @@ export default class HomeScreen extends Component {
     // -------------------MAIN PAGE-----------------------
     if (this.state.homePage) {
       homePage =
-      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
-        backgroundColor: this.state.backColor}}>
-
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: this.state.backColor}}>
         <Text style={styles.text}>
           YOU { available } AVALIABLE
         </Text>
@@ -206,17 +207,6 @@ export default class HomeScreen extends Component {
         {declineCall}
       </View>
     }
-
-    // if (this.state.callPage) {
-    //   callPage =
-    //   <View style={styles.container}>
-    //     <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
-    //     <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
-    //     {endCall}
-    //     {answerCall}
-    //     {declineCall}
-    //   </View>
-    // }
 
     return (
       // did inline styling to test incoming socket data
