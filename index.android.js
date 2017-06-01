@@ -214,7 +214,6 @@ export default class HomeScreen extends Component {
           <Text style={styles.sendText}>Client</Text>
         </TouchableOpacity>
       </View>
-
     }
     else {
       homePage =
