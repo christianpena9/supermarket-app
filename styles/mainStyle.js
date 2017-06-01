@@ -65,7 +65,7 @@ export const styles = StyleSheet.create({
   declineCall: {
     position: 'absolute',
     top: window.height-230,
-    left: 300,
+    left: window.width-130,
     borderColor: 'white',
     borderWidth: 3,
     backgroundColor: 'rgb(255,25,50)',

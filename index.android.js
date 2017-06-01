@@ -42,13 +42,13 @@ export default class HomeScreen extends Component {
     //has to listen to localhost but with actual IP Address
     // Jimmy IP address 192.168.0.3
     // Christian IP address 172.28.45.126
-    this.socket = io('http://192.168.23.217:3000', {jsonp: false});
+    this.socket = io('http://172.20.10.10:3000', {jsonp: false});
     this.state = {
       isSwitchOn: false,
       backColor: "rgb(245,245,245)",
       homePage: true,
       videoURL : null,
-      status: true,
+      answerCallButton: true,
       endCallButton: false
     }
 
@@ -87,25 +87,18 @@ export default class HomeScreen extends Component {
       if (videoStream.run === undefined) {
         this.setState({
           videoURL : stream.toURL(),
-          status:!this.state.status,
-          endCallStatus: false
+          answerCallButton:!this.state.answerCallButton,
+          endCallButton: !this.state.endCallButton
         });
         videoStream = stream;
         videoStream.run = true;
-
-        console.log("1st if stat/ new URL is = ", this.state.videoURL);
-        console.log(stream.toURL);
-        console.log(stream.run);
       }
       else{
         this.setState({
           videoURL : videoStream.toURL(),
-          status:!this.state.status,
-          endCallStatus: false
+          answerCallButton:!this.state.answerCallButton,
+          endCallButton: !this.state.endCallButton
         });
-        console.log("else stat/ new URL is = ", this.state.videoURL);
-        console.log(videoStream.toURL);
-        console.log(videoStream.run);
       }
     }
 
@@ -121,12 +114,12 @@ export default class HomeScreen extends Component {
 
 
   //FUNCTIONS
-  componentDidMount(){
+  componentDidUpdate(){
     console.log(
       "is switch on = ", this.state.isSwitchOn,
       "home page is = ", this.state.homePage,
       "videoURL is  = ", this.state.videoURL,
-      "status is  = ", this.state.status,
+      "answer call button is  = ", this.state.answerCallButton,
       "end call button is  = ", this.state.endCallButton
     );
   }
@@ -134,17 +127,8 @@ export default class HomeScreen extends Component {
   // Function to disabled the call
   hangUp() {
     this.setState({videoURL:null});
-    this.setState({status:true});
-    this.setState({endCallStatus:true});
-  }
-
-  // Function to interchange answer/decline/end buttons and ...
-  // calls the fucntion to start call
-  toggleStatus() {
-    this.setState({
-      status:!this.state.status
-    });
-    this.startCall();
+    this.setState({answerCallButton:!this.state.answerCallButton});
+    this.setState({endCallButton:!this.state.endCallButton});
   }
 
   checkSwitch() {
@@ -174,17 +158,17 @@ export default class HomeScreen extends Component {
 
     // checking the status, if true then take TouchableOpacity
     // and save it to the variable
-    if(this.state.status) {
-      callButtons =
-      <TouchableOpacity style={styles.answerCall} onPress = { () => this.toggleStatus() } >
+    if(this.state.answerCallButton) {
+      answerCall =
+      <TouchableOpacity style={styles.answerCall} onPress = { () => this.startCall() } >
         <Text style={styles.butText}>Answer</Text>
       </TouchableOpacity>;
-
+      declineCall =
       <TouchableOpacity style={styles.declineCall} onPress={ () => this.setState({homePage: true}) }>
         <Text style={styles.butText}>Decline</Text>
       </TouchableOpacity>;
-    }else {
-      callButtons =
+    }if(this.state.endCallButton) {
+      endCall =
       <TouchableOpacity style={styles.endCall} onPress={ () => this.hangUp() }>
         <Text style={styles.butText}>End</Text>
       </TouchableOpacity>;
@@ -217,8 +201,9 @@ export default class HomeScreen extends Component {
       <View style={styles.container}>
         <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
         <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
-        {callButtons}
-        {callButtons}
+        {answerCall}
+        {endCall}
+        {declineCall}
       </View>
     }
 

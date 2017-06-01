@@ -21,7 +21,7 @@ class ClientScreen extends React.Component {
     constructor() {
         super();
 
-        this.socket = io('http://1192.168.23.217:3000', {jsonp: false});
+        this.socket = io('http://172.20.10.10:3000', {jsonp: false});
 
         this.state = {
             Data: false,
