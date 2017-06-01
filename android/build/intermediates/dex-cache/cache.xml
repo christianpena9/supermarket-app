@@ -66,6 +66,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/SuperMarketApp/react-native-webrtc/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="71b1d84e1933d2363c57d27f89aed45326ce6ca2">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/SuperMarketApp-react-native-webrtc-unspecified_959d8bef1a4cd25b13fcd1cfffe968fb5a3c16f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -147,6 +156,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/SuperMarketApp/react-native-webrtc/unspecified/jars/libs/base_java.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="83c48a89933abf755774995f22ed23f8d4adc6b1">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/base_java_a0a33b1135e8dca9df61344e2d84c705ea6162b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -171,6 +189,15 @@
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
         <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_441a42f13fe77952fbe13b0f2ef10909e174627e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/SuperMarketApp/react-native-webrtc/unspecified/jars/libs/libjingle_peerconnection_java.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f90b9efe090d06d4aa456f71bb1ff38c464d1c5">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/libjingle_peerconnection_java_93a1ad1d84e63da09853716146719b4b31d9f854.jar" />
     </item>
     <item
         is-multidex="false"

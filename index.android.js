@@ -40,79 +40,97 @@ import { styles } from './styles/mainStyle';
 const Dimensions = require('Dimensions');
 const window = Dimensions.get('window');
 
+const videoStream = {};
 
 export default class HomeScreen extends Component {
-  startCall() {
-
-      const constraints = {
-          audio: true,
-          video: {
-              mandatory: {
-                  width: 0,
-                  height: 0,
-                  minFrameRate: 30
-              }
-          }
-      };
-
-      var successCallback = () => {
-          this.setState({
-              videoURL : "hello videoURL"
-          });
-          console.log(stream.toURL());
-      }
-
-      var errorCallback = (error) => {
-          console.log("Oooops we got an error!", error.message);
-          throw error;
-      }
-
-      getUserMedia(constraints, successCallback, errorCallback);
-
-  } // end of startCall
-    constructor() {
-        super();
-        //has to listen to localhost but with actual IP Address
-        // Jimmy IP address 192.168.0.3
-        // Christian IP address 172.28.45.126
-        this.socket = io('http://192.168.0.21:3000', {jsonp: false});
-        this.state = {
-          isSwitchOn: false,
-          text: "enter color",
-          incomingText: null,
-          backColor: "rgb(245,245,245)",
-          callPage: false,
-          homePage: true,
-          videoURL : null,
-          status: true,
-          endCallStatus: true
-        }
-
-        //INCOMING DATA
-
-        this.socket.on('isSwitchOn-server', (data) => {
-          console.log(data);
-          this.setState({ isSwitchOn: data });
-        });
-
-        this.socket.on("calling-server", (data)=> {
-            console.log(data);
-            this.setState({ homePage: data });
-        });
-
-
-        // OUTGOING DATA
-        this.socket.emit('isSwitchOn-client', this.state.isSwitchOn);
+  constructor() {
+    super();
+    //has to listen to localhost but with actual IP Address
+    // Jimmy IP address 192.168.0.3
+    // Christian IP address 172.28.45.126
+    this.socket = io('http://192.168.0.21:3000', {jsonp: false});
+    this.state = {
+      isSwitchOn: false,
+      text: "enter color",
+      incomingText: null,
+      backColor: "rgb(245,245,245)",
+      callPage: false,
+      homePage: true,
+      videoURL : null,
+      status: true,
+      endCallStatus: true
     }
 
+    //INCOMING DATA
+
+    this.socket.on('isSwitchOn-server', (data) => {
+      console.log(data);
+      this.setState({ isSwitchOn: data });
+    });
+
+    this.socket.on("calling-server", (data)=> {
+      console.log(data);
+      this.setState({ homePage: data });
+    });
 
 
-    //RTC REQUIREMENTS
-    toggleStatus() {
-      this.setState({
-        status:!this.state.status, endCallStatus: false
-      });
-      this.startCall();
+    // OUTGOING DATA
+    this.socket.emit('isSwitchOn-client', this.state.isSwitchOn);
+  }
+
+  //RTC REQUIREMENTS
+  startCall() {
+    const constraints = {
+      audio: true,
+      video: {
+        mandatory: {
+          width: 0,
+          height: 0,
+          minFrameRate: 30
+        }
+      }
+    };
+
+    var successCallback = (stream) => {
+      if (videoStream.run === undefined) {
+        this.setState({
+          videoURL : stream.toURL(),
+          status:!this.state.status,
+          endCallStatus: false
+        });
+        videoStream = stream;
+        videoStream.run = true;
+
+        console.log("1st if stat/ new URL is = ", this.state.videoURL);
+        console.log(stream.toURL);
+        console.log(stream.run);
+      }
+      else{
+        this.setState({
+          videoURL : videoStream.toURL(),
+          status:!this.state.status,
+          endCallStatus: false
+        });
+        console.log("else stat/ new URL is = ", this.state.videoURL);
+        console.log(videoStream.toURL);
+        console.log(videoStream.run);
+      }
+    }
+
+    var errorCallback = (error) => {
+      console.log("Oooops we got an error!", error.message);
+      throw error;
+    }
+
+    getUserMedia(constraints, successCallback, errorCallback);
+
+  } // end of startCall
+
+  toggleStatus() {
+    this.setState({
+      status:!this.state.status, endCallStatus: false
+    });
+    this.startCall();
   }
 
 
@@ -223,10 +241,10 @@ export default class HomeScreen extends Component {
         }
         return (
             // did inline styling to test incoming socket data
-            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',
-            backgroundColor: this.state.backColor}}>
+            <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: this.state.backColor}}>
 
               {homePage}
+
             </View>
         );
     }
