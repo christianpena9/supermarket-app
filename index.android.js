@@ -215,6 +215,7 @@ export default class HomeScreen extends Component {
         </TouchableOpacity>
       </View>
     }
+    
     else {
       homePage =
       <View style={styles.container}>
