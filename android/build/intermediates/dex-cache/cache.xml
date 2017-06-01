@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_2328c5511538f51cc6e413f39eafb880d13258c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -30,12 +39,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.11.0_70b07c5a30c2af3e989ef1ee245e78b579ef702e.jar" />
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_f30040cdbfe52520caf64b353a063761bf774374.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_ce81ff2b028d534add6c031d70b04d6c29a2200d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_eb5239eb2f46ac383b6504f042f3eea44a792dbe.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,93 +102,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-0.11.0_6664ebab779a9161810c70b2661d6a2416083807.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_fb889b0ab7bd05cd4d0e435f4a48f34a1e0c1c81.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="962b06c207e808c0557ffd6163ac584025a96021">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.42.3_1a625a29416fe4cdf866a2575171c1137265fa53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.11.0_b4a76c933a0a15434dbe584a7df25b03c4248479.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.11.0_6a92db1391dfdd6c188420e5cca75c2d80c90a9d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_99b4a51aa6da8f874fa909135e12042eb614f278.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_2328c5511538f51cc6e413f39eafb880d13258c2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.42.3/jars/libs/infer-annotations-1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_08e9a07923e9979f39e99d3a0ebb0ee6ab517b94.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_eb5239eb2f46ac383b6504f042f3eea44a792dbe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.11.0_ef1174b40ec433e03cc7780a772408bd4c09058d.jar" />
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_441752141ef5c20e80f9028c2466a079e564144a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -171,6 +117,42 @@
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
         <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_e290dbb1bd0bc1da8ec3882ab9e853be52462c99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_45b056e84644853e377c1e00f7aa3a159a00296a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_d522331511e5ff57e3eb10bd78416a9b86af785f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.43.4_b905e3137dd291208d41517f06e1634f7558ded8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_fb889b0ab7bd05cd4d0e435f4a48f34a1e0c1c81.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,21 +183,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.43.4/jars/libs/infer-annotations-1.5.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.11.0_1aef07c0d2b0f48a30b8931cb1bc9da14f93d139.jar" />
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_2fbd7a875ace6495d470ca139585d81b32885188.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jar="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_c1a14c56d1b3d2447697d8f6a5851b6f40ca368f.jar" />
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_33e6e74763a8ac9d7a1a5de15b79204c44909eda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jimmydla/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/jimmydla/Desktop/code/wdi/socket.io/supermarket-app/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_99b4a51aa6da8f874fa909135e12042eb614f278.jar" />
     </item>
 
 </items>

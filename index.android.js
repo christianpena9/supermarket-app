@@ -75,17 +75,17 @@ export default class HomeScreen extends Component {
         //has to listen to localhost but with actual IP Address
         // Jimmy IP address 192.168.0.3
         // Christian IP address 172.28.45.126
-        this.socket = io('http://192.168.0.4:3000', {jsonp: false});
+        this.socket = io('http://192.168.0.21:3000', {jsonp: false});
         this.state = {
-            isSwitchOn: false,
-            text: "enter color",
-            incomingText: null,
-            backColor: "rgb(245,245,245)",
-            callPage: false,
-            homePage: true,
-            videoURL : null,
-            status: true,
-            endCallStatus: true
+          isSwitchOn: false,
+          text: "enter color",
+          incomingText: null,
+          backColor: "rgb(245,245,245)",
+          callPage: false,
+          homePage: true,
+          videoURL : null,
+          status: true,
+          endCallStatus: true
         }
 
         //INCOMING DATA
