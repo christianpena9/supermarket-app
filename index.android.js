@@ -217,19 +217,28 @@ export default class HomeScreen extends Component {
       </View>
     );
   }
-}
+} // end of HomeScreen
 
 /* CUSTOM ROUTE BELOW */
 const SuperMarketApp = StackNavigator({
   Home: {
-    screen: HomeScreen
+    screen: HomeScreen,
+    navigationOptions: {
+        header: null
+    },
   },
   ClientScreen: {
-    screen: ClientScreen
+    screen: ClientScreen,
+    navigationOptions: {
+        header: null
+    },
   },
   ReceiverScreen: {
-    screen: ReceiverScreen
-  }
+    screen: ReceiverScreen,
+    navigationOptions: {
+        header: null
+     },
+    },
 });
 
 AppRegistry.registerComponent('SuperMarketApp', () => SuperMarketApp);
