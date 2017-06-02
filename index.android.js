@@ -49,7 +49,8 @@ export default class HomeScreen extends Component {
       homePage: true,
       videoURL : null,
       answerCallButton: true,
-      endCallButton: false
+      endCallButton: false,
+      videoURL2 : null
     }
 
     //INCOMING DATA
@@ -62,6 +63,11 @@ export default class HomeScreen extends Component {
       console.log("incoming data from server to update homePage =>", data);
       this.setState({ homePage: data });
     });
+
+    this.socket.on('videoURL-server', (data) =>{
+      console.log("incoming data from server videoURL-server => ", data);
+      this.setState({ videoURL2: data })
+    })
 
 
     // OUTGOING DATA
@@ -112,7 +118,6 @@ export default class HomeScreen extends Component {
   // end of startCall
 
 
-
   //FUNCTIONS
   componentDidUpdate(){
     console.log(
@@ -122,6 +127,9 @@ export default class HomeScreen extends Component {
       "answer call button is  = ", this.state.answerCallButton,
       "end call button is  = ", this.state.endCallButton
     );
+
+    // this.socket.emit('videoURL-client', this.state.videoURL)
+
   }
 
   // Function to disabled the call

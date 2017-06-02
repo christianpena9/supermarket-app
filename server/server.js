@@ -13,8 +13,6 @@ io.on('connection', (socket) => {
     console.log(socket.id, " has signed out!");
   });
 
-
-
   socket.on('isSwitchOn-client', (data) => {
       console.log("is switch on? =>", data);
       io.sockets.emit('isSwitchOn-server', data);
@@ -25,6 +23,10 @@ io.on('connection', (socket) => {
       io.sockets.emit('calling-server', data);
   });
 
+  socket.on('videoURL-client', (data) => {
+    console.log("videoURL is =>", data);
+    io.sockets.emit('videoURL-server', data);
+  })
 
 
 });
