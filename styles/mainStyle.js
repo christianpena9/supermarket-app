@@ -59,12 +59,12 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     position: 'absolute',
-    top: window.height-230,
+    top: window.height-155,
     left: 0,
   },
   declineCall: {
     position: 'absolute',
-    top: window.height-230,
+    top: window.height-155,
     left: window.width-130,
     borderColor: 'white',
     borderWidth: 3,
@@ -78,7 +78,7 @@ export const styles = StyleSheet.create({
   },
   endCall: {
     position: 'absolute',
-    top: window.height-230,
+    top: window.height-155,
     left: 0,
     borderColor: 'white',
     borderWidth: 3,

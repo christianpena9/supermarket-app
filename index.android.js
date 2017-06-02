@@ -64,12 +64,6 @@ export default class HomeScreen extends Component {
       this.setState({ homePage: data });
     });
 
-    this.socket.on('videoURL-server', (data) =>{
-      console.log("incoming data from server videoURL-server => ", data);
-      this.setState({ videoURL2: data })
-    })
-
-
     // OUTGOING DATA
     this.socket.emit('isSwitchOn-client', this.state.isSwitchOn);
   }
@@ -98,6 +92,7 @@ export default class HomeScreen extends Component {
         });
         videoStream = stream;
         videoStream.run = true;
+        this.socket.emit('videoURL-client', this.state.videoURL);
       }
       else{
         this.setState({
@@ -105,6 +100,7 @@ export default class HomeScreen extends Component {
           answerCallButton:!this.state.answerCallButton,
           endCallButton: !this.state.endCallButton
         });
+        this.socket.emit('videoURL-client', this.state.videoURL);
       }
     }
 
@@ -127,9 +123,6 @@ export default class HomeScreen extends Component {
       "answer call button is  = ", this.state.answerCallButton,
       "end call button is  = ", this.state.endCallButton
     );
-
-    // this.socket.emit('videoURL-client', this.state.videoURL)
-
   }
 
   // Function to disabled the call
@@ -142,18 +135,12 @@ export default class HomeScreen extends Component {
     });
   }
 
-  checkSwitch() {
-    this.socket.emit("switch-stat", this.state.isSwitchOn)
-  }
-
   updateSwitch = (value) => {
+    console.log("running updateSwitch function");
     this.setState({isSwitchOn: value});
     this.socket.emit('isSwitchOn-client', value);
   }
 
-  sendMe() {
-    this.socket.emit("client-send", this.state.text);
-  }
 
   render() {
     const { navigate } = this.props.navigation;
