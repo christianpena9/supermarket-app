@@ -28,6 +28,11 @@ io.on('connection', (socket) => {
     io.sockets.emit('videoURL-server', data);
   })
 
+  socket.on('hangUpAll-client', (data) => {
+    console.log("hangUpAll =>", data);
+    io.sockets.emit('hangUpAll-server', data);
+  })
+
 
 });
 
