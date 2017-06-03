@@ -34,7 +34,7 @@ import { styles } from './styles/mainStyle';
 const Dimensions = require('Dimensions');
 const window = Dimensions.get('window');
 
-var videoStream = {};
+const videoStream = {};
 
 export default class HomeScreen extends Component {
   constructor() {
@@ -46,7 +46,7 @@ export default class HomeScreen extends Component {
     this.state = {
       isSwitchOn: false,
       backColor: "rgb(245,245,245)",
-      homePage: true,
+      callPage: true,
       videoURL : null,
       answerCallButton: true,
       endCallButton: false,
@@ -60,8 +60,13 @@ export default class HomeScreen extends Component {
     });
 
     this.socket.on("calling-server", (data)=> {
-      console.log("incoming data from server to update homePage =>", data);
-      this.setState({ homePage: data });
+      console.log("incoming data from server to update callPage =>", data);
+      this.setState({ callPage: data });
+    });
+
+    this.socket.on("hangUpAll-server", (data)=> {
+      console.log("incoming data from server to update callPage =>", data);
+      this.setState({ callPage: data });
     });
 
     // OUTGOING DATA
@@ -71,6 +76,7 @@ export default class HomeScreen extends Component {
 
   //RTC REQUIREMENTS
   startCall() {
+
 
     const constraints = {
       audio: true,
@@ -118,7 +124,7 @@ export default class HomeScreen extends Component {
   componentDidUpdate(){
     console.log(
       "is switch on = ", this.state.isSwitchOn,
-      "home page is = ", this.state.homePage,
+      "call page is = ", this.state.callPage,
       "videoURL is  = ", this.state.videoURL,
       "answer call button is  = ", this.state.answerCallButton,
       "end call button is  = ", this.state.endCallButton
@@ -131,8 +137,8 @@ export default class HomeScreen extends Component {
       videoURL: null,
       answerCallButton: !this.state.answerCallButton,
       endCallButton: !this.state.endCallButton,
-      homePage: !this.state.homePage
     });
+    this.socket.emit('hangUpAll-client', false)
   }
 
   updateSwitch = (value) => {
@@ -162,7 +168,7 @@ export default class HomeScreen extends Component {
         <Text style={styles.butText}>Answer</Text>
       </TouchableOpacity>;
       declineCall =
-      <TouchableOpacity style={styles.declineCall} onPress={ () => this.setState({homePage: true}) }>
+      <TouchableOpacity style={styles.declineCall} onPress={ () => this.setState({callPage: true}) }>
         <Text style={styles.butText}>Decline</Text>
       </TouchableOpacity>;
     }if(this.state.endCallButton) {
@@ -173,8 +179,8 @@ export default class HomeScreen extends Component {
     }
 
     // -------------------MAIN PAGE-----------------------
-    if (this.state.homePage) {
-      homePage =
+    if (this.state.callPage) {
+      callPage =
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: this.state.backColor}}>
         <Text style={styles.text}>
           YOU { available } AVALIABLE
@@ -193,7 +199,7 @@ export default class HomeScreen extends Component {
       </View>
     }else {
       // -----------------CALL PAGE------------------------
-      homePage =
+      callPage =
       <View style={styles.container}>
         <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/>
         <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
@@ -207,7 +213,7 @@ export default class HomeScreen extends Component {
       // did inline styling to test incoming socket data
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center',backgroundColor: this.state.backColor}}>
 
-        {homePage}
+        {callPage}
 
       </View>
     );

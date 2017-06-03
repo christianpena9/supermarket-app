@@ -22,6 +22,8 @@ import io from "socket.io-client/dist/socket.io";
 /* CUSTOM IMPORT STYLES BELOW */
 import { styles } from '../styles/mainStyle';
 
+const videoStream2 = {};
+
 /* CLIENT SCREEN BELOW */
 class ClientScreen extends React.Component {
   constructor() {
@@ -31,6 +33,7 @@ class ClientScreen extends React.Component {
     this.state = {
       callButton: false,
       callPage: false,
+      videoURL: null,
       videoURL2: null
     }
 
@@ -38,15 +41,67 @@ class ClientScreen extends React.Component {
     this.socket.on('isSwitchOn-server', (data) => {
       this.setState({ callButton: data });
     });
+
     this.socket.on('videoURL-server', (data) =>{
       console.log("incoming data from server videoURL-server => ", data);
       this.setState({
         videoURL2: data,
         callPage: !this.state.callPage
       })
-    })
+      this.startCall();
+    });
+
+    this.socket.on("hangUpAll-server", (data)=> {
+      console.log("incoming data from server to update callPage =>", data);
+      this.setState({ callPage: data });
+
+    });
 
   }
+
+  //RTC REQUIREMENTS
+  startCall() {
+
+    const constraints = {
+      audio: true,
+      video: {
+        mandatory: {
+          width: 0,
+          height: 0,
+          minFrameRate: 30
+        }
+      }
+    };
+
+    var successCallback = (stream) => {
+      if (videoStream2.run === undefined) {
+        this.setState({
+          videoURL : stream.toURL(),
+          answerCallButton:!this.state.answerCallButton,
+          endCallButton: !this.state.endCallButton
+        });
+        videoStream2 = stream;
+        videoStream2.run = true;
+        this.socket.emit('videoURL-client', this.state.videoURL);
+      }
+      else{
+        this.setState({
+          videoURL : videoStream2.toURL(),
+          // answerCallButton:!this.state.answerCallButton,
+          // endCallButton: !this.state.endCallButton
+        });
+        // this.socket.emit('videoURL-client', this.state.videoURL);
+      }
+    }
+
+    var errorCallback = (error) => {
+      console.log("Oooops we got an error!", error.message);
+      throw error;
+    }
+
+    getUserMedia(constraints, successCallback, errorCallback);
+  }
+  // end of startCall
 
 
     render() {
@@ -75,7 +130,7 @@ class ClientScreen extends React.Component {
         homePage =
         <View style={styles.container}>
           {/* <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/> */}
-          <RTCView streamURL={this.state.videoURL2} style={styles.videoLarge}/>
+          <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
           <TouchableOpacity style={styles.endCall} onPress={ () => this.setState({callPage: !this.state.callPage}) }>
             <Text style={styles.butText}>End</Text>
           </TouchableOpacity>
