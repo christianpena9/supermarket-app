@@ -22,35 +22,31 @@ import io from "socket.io-client/dist/socket.io";
 /* CUSTOM IMPORT STYLES BELOW */
 import { styles } from '../styles/mainStyle';
 
-// const onButtonPress = () => {
-//   this.socket.emit('calling-client', true);
-// };
-
 /* CLIENT SCREEN BELOW */
 class ClientScreen extends React.Component {
-    constructor() {
-        super();
+  constructor() {
+    super();
 
-        this.socket = io('http://172.20.10.10:3000', {jsonp: false});
-        this.state = {
-            callButton: false,
-            callPage: false,
-            videoURL2: null
-        }
-
-        // --------------INCOMING DATA------------------
-        this.socket.on('isSwitchOn-server', (data) => {
-          this.setState({ callButton: data });
-        });
-        this.socket.on('videoURL-server', (data) =>{
-          console.log("incoming data from server videoURL-server => ", data);
-          this.setState({
-            videoURL2: data,
-            callPage: !this.state.callPage
-          })
-        })
-
+    this.socket = io('http://172.20.10.10:3000', {jsonp: false});
+    this.state = {
+      callButton: false,
+      callPage: false,
+      videoURL2: null
     }
+
+    // --------------INCOMING DATA------------------
+    this.socket.on('isSwitchOn-server', (data) => {
+      this.setState({ callButton: data });
+    });
+    this.socket.on('videoURL-server', (data) =>{
+      console.log("incoming data from server videoURL-server => ", data);
+      this.setState({
+        videoURL2: data,
+        callPage: !this.state.callPage
+      })
+    })
+
+  }
 
 
     render() {
