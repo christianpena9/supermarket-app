@@ -42,18 +42,18 @@ export default class HomeScreen extends Component {
     //has to listen to localhost but with actual IP Address
     // Jimmy IP address 192.168.0.3
     // Christian IP address 172.28.45.126
-    this.socket = io('http://172.20.10.10:3000', {jsonp: false});
+    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
     this.state = {
       isSwitchOn: false,
       backColor: "rgb(245,245,245)",
-      callPage: true,
+      callPage: false,
       videoURL : null,
       answerCallButton: true,
       endCallButton: false,
       videoURL2 : null
     }
 
-    //INCOMING DATA
+    //--------------------INCOMING DATA---------------------------
     this.socket.on('isSwitchOn-server', (data) => {
       console.log("incoming data from server switch-stat =>", data);
       this.setState({ isSwitchOn: data });
@@ -69,12 +69,12 @@ export default class HomeScreen extends Component {
       this.setState({ callPage: data });
     });
 
-    // OUTGOING DATA
+    // --------------------------OUTGOING DATA------------------------
     this.socket.emit('isSwitchOn-client', this.state.isSwitchOn);
   }
 
 
-  //RTC REQUIREMENTS
+  //---------------------------RTC REQUIREMENTS---------------------------
   startCall() {
 
 
@@ -120,7 +120,7 @@ export default class HomeScreen extends Component {
   // end of startCall
 
 
-  //FUNCTIONS
+  //-----------------------FUNCTIONS-----------------------------
   componentDidUpdate(){
     console.log(
       "is switch on = ", this.state.isSwitchOn,
@@ -131,7 +131,7 @@ export default class HomeScreen extends Component {
     );
   }
 
-  // Function to disabled the call
+  //Function to disabled the call
   hangUp() {
     this.setState({
       videoURL: null,
@@ -179,7 +179,7 @@ export default class HomeScreen extends Component {
     }
 
     // -------------------MAIN PAGE-----------------------
-    if (this.state.callPage) {
+    if (!this.state.callPage) {
       callPage =
       <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: this.state.backColor}}>
         <Text style={styles.text}>
@@ -220,7 +220,7 @@ export default class HomeScreen extends Component {
   }
 } // end of HomeScreen
 
-/* CUSTOM ROUTE BELOW */
+/* -------------------CUSTOM ROUTE BELOW-------------------- */
 const SuperMarketApp = StackNavigator({
   Home: {
     screen: HomeScreen,

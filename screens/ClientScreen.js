@@ -29,7 +29,7 @@ class ClientScreen extends React.Component {
   constructor() {
     super();
 
-    this.socket = io('http://172.20.10.10:3000', {jsonp: false});
+    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
     this.state = {
       callButton: false,
       callPage: false,
@@ -59,7 +59,7 @@ class ClientScreen extends React.Component {
 
   }
 
-  //RTC REQUIREMENTS
+  //------------------RTC REQUIREMENTS-------------------------
   startCall() {
 
     const constraints = {
@@ -104,11 +104,20 @@ class ClientScreen extends React.Component {
   // end of startCall
 
 
+  // -------------------FUNCTIONS----------------------------
+  hangUp(){
+    this.setState({
+      videoURL:null
+    });
+    this.socket.emit('hangUpAll-client', false);
+  }
+
+// ------------------------VIEW-----------------------------
     render() {
       const { params } = this.props.navigation.state;
 
       onButtonPress = () => {
-        this.socket.emit('calling-client', false);
+        this.socket.emit('calling-client', true);
       };
 
       // -------------------MAIN PAGE-----------------------
@@ -131,7 +140,7 @@ class ClientScreen extends React.Component {
         <View style={styles.container}>
           {/* <RTCView streamURL={this.state.videoURL} style={styles.videoSmall}/> */}
           <RTCView streamURL={this.state.videoURL} style={styles.videoLarge}/>
-          <TouchableOpacity style={styles.endCall} onPress={ () => this.setState({callPage: !this.state.callPage}) }>
+          <TouchableOpacity style={styles.endCall} onPress={ () => this.hangUp() }>
             <Text style={styles.butText}>End</Text>
           </TouchableOpacity>
         </View>
