@@ -42,7 +42,7 @@ export default class HomeScreen extends Component {
     //has to listen to localhost but with actual IP Address
     // Jimmy IP address 192.168.0.3
     // Christian IP address 172.28.45.126
-    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
+    this.socket = io('http://192.168.86.94:3000', {jsonp: false});
     this.state = {
       isSwitchOn: false,
       backColor: "rgb(245,245,245)",
@@ -168,7 +168,7 @@ export default class HomeScreen extends Component {
         <Text style={styles.butText}>Answer</Text>
       </TouchableOpacity>;
       declineCall =
-      <TouchableOpacity style={styles.declineCall} onPress={ () => this.setState({callPage: true}) }>
+      <TouchableOpacity style={styles.declineCall} onPress={ () => this.setState({callPage: false}) }>
         <Text style={styles.butText}>Decline</Text>
       </TouchableOpacity>;
     }if(this.state.endCallButton) {

@@ -29,7 +29,7 @@ class ClientScreen extends React.Component {
   constructor() {
     super();
 
-    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
+    this.socket = io('http://192.168.86.94:3000', {jsonp: false});
     this.state = {
       callButton: false,
       callPage: false,
