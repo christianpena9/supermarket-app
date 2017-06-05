@@ -22,14 +22,14 @@ import io from "socket.io-client/dist/socket.io";
 /* CUSTOM IMPORT STYLES BELOW */
 import { styles } from '../styles/mainStyle';
 
-const videoStream2 = {};
+var videoStream2 = {};
 
 /* CLIENT SCREEN BELOW */
 class ClientScreen extends React.Component {
   constructor() {
     super();
 
-    this.socket = io('http://192.168.86.94:3000', {jsonp: false});
+    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
     this.state = {
       callButton: false,
       callPage: false,
@@ -87,10 +87,7 @@ class ClientScreen extends React.Component {
       else{
         this.setState({
           videoURL : videoStream2.toURL(),
-          // answerCallButton:!this.state.answerCallButton,
-          // endCallButton: !this.state.endCallButton
         });
-        // this.socket.emit('videoURL-client', this.state.videoURL);
       }
     }
 
