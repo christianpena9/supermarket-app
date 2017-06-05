@@ -42,7 +42,7 @@ export default class HomeScreen extends Component {
     //has to listen to localhost but with actual IP Address
     // Jimmy IP address 192.168.0.3
     // Christian IP address 172.28.45.126
-    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
+    this.socket = io('http://25.140.14.243:3000', {jsonp: false});
     this.state = {
       isSwitchOn: false,
       backColor: "rgb(245,245,245)",
@@ -67,6 +67,11 @@ export default class HomeScreen extends Component {
     this.socket.on("hangUpAll-server", (data)=> {
       console.log("incoming data from server to update callPage =>", data);
       this.setState({ callPage: data });
+    });
+
+    this.socket.on('videoURL2-server', (data) =>{
+      console.log("incoming data from server videoURL-server => ", data);
+      this.setState({ videoURL2: data });
     });
 
     // --------------------------OUTGOING DATA------------------------

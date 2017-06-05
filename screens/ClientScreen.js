@@ -29,7 +29,7 @@ class ClientScreen extends React.Component {
   constructor() {
     super();
 
-    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
+    this.socket = io('http://25.140.14.243:3000', {jsonp: false});
     this.state = {
       callButton: false,
       callPage: false,
@@ -48,7 +48,9 @@ class ClientScreen extends React.Component {
         videoURL2: data,
         callPage: !this.state.callPage
       })
+      console.log("about to run webRTC call");
       this.startCall();
+      console.log("should of ran webRTC call");
     });
 
     this.socket.on("hangUpAll-server", (data)=> {
@@ -82,7 +84,7 @@ class ClientScreen extends React.Component {
         });
         videoStream2 = stream;
         videoStream2.run = true;
-        this.socket.emit('videoURL-client', this.state.videoURL);
+        this.socket.emit('videoURL2-client', this.state.videoURL);
       }
       else{
         this.setState({
