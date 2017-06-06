@@ -29,7 +29,7 @@ class ClientScreen extends React.Component {
   constructor() {
     super();
 
-    this.socket = io('http://25.140.14.243:3000', {jsonp: false});
+    this.socket = io('http://25.140.4.91:3000', {jsonp: false});
     this.state = {
       callButton: false,
       callPage: false,
@@ -56,7 +56,6 @@ class ClientScreen extends React.Component {
     this.socket.on("hangUpAll-server", (data)=> {
       console.log("incoming data from server to update callPage =>", data);
       this.setState({ callPage: data });
-
     });
 
   }
