@@ -33,9 +33,14 @@ io.on('connection', (socket) => {
     io.sockets.emit('videoURL2-server', data);
   })
 
-  socket.on('hangUpAll-client', (data) => {
-    console.log("hangUpAll =>", data);
-    io.sockets.emit('hangUpAll-server', data);
+  socket.on('hangUpHome-client', (data) => {
+    console.log("hangUpHome-client =>", data);
+    io.sockets.emit('hangUpHome-server', data);
+  })
+
+  socket.on('hangUpClient-client', (data) => {
+    console.log("hangUpClient-client =>", data);
+    io.sockets.emit('hangUpClient-server', data);
   })
 
 

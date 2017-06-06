@@ -53,14 +53,13 @@ class ClientScreen extends React.Component {
       console.log("should of ran webRTC call");
     });
 
-    this.socket.on("hangUpAll-server", (data)=> {
+    this.socket.on("hangUpHome-server", (data)=> {
       console.log("incoming data from server to update callPage =>", data);
       this.setState({
         videoURL: null,
         callPage: data
       });
     });
-    
   }
 
   //------------------RTC REQUIREMENTS-------------------------
@@ -107,9 +106,10 @@ class ClientScreen extends React.Component {
   // -------------------FUNCTIONS----------------------------
   hangUp(){
     this.setState({
-      videoURL:null
+      videoURL: null,
+      callPage: false
     });
-    this.socket.emit('hangUpAll-client', false);
+    this.socket.emit('hangUpClient-client', false);
   }
 
 // ------------------------VIEW-----------------------------

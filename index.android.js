@@ -64,7 +64,7 @@ export default class HomeScreen extends Component {
       this.setState({ callPage: data });
     });
 
-    this.socket.on("hangUpAll-server", (data)=> {
+    this.socket.on("hangUpClient-server", (data)=> {
       console.log("incoming data from server to update callPage =>", data);
       this.setState({
         videoURL: null,
@@ -141,9 +141,14 @@ export default class HomeScreen extends Component {
     );
   }
 
-  //Function to disabled the call
   hangUp() {
-    this.socket.emit('hangUpAll-client', false)
+    this.setState({
+      videoURL: null,
+      callPage: false,
+      answerCallButton: true,
+      endCallButton: false
+    });
+    this.socket.emit('hangUpHome-client', false);
   }
 
   updateSwitch = (value) => {
@@ -151,7 +156,6 @@ export default class HomeScreen extends Component {
     this.setState({isSwitchOn: value});
     this.socket.emit('isSwitchOn-client', value);
   }
-
 
   render() {
     const { navigate } = this.props.navigation;
