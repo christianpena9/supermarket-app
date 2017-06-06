@@ -78,8 +78,6 @@ class ClientScreen extends React.Component {
       if (videoStream2.run === undefined) {
         this.setState({
           videoURL : stream.toURL(),
-          answerCallButton:!this.state.answerCallButton,
-          endCallButton: !this.state.endCallButton
         });
         videoStream2 = stream;
         videoStream2.run = true;
