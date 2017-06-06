@@ -29,7 +29,7 @@ class ClientScreen extends React.Component {
   constructor() {
     super();
 
-    this.socket = io('http://25.140.4.91:3000', {jsonp: false});
+    this.socket = io('http://25.146.4.54:3000', {jsonp: false});
     this.state = {
       callButton: false,
       callPage: false,
@@ -47,7 +47,7 @@ class ClientScreen extends React.Component {
       this.setState({
         videoURL2: data,
         callPage: !this.state.callPage
-      })
+      });
       console.log("about to run webRTC call");
       this.startCall();
       console.log("should of ran webRTC call");
@@ -55,9 +55,12 @@ class ClientScreen extends React.Component {
 
     this.socket.on("hangUpAll-server", (data)=> {
       console.log("incoming data from server to update callPage =>", data);
-      this.setState({ callPage: data });
+      this.setState({
+        videoURL: null,
+        callPage: data
+      });
     });
-
+    
   }
 
   //------------------RTC REQUIREMENTS-------------------------
@@ -85,8 +88,9 @@ class ClientScreen extends React.Component {
       }
       else{
         this.setState({
-          videoURL : videoStream2.toURL(),
+          videoURL : videoStream2.toURL()
         });
+        this.socket.emit('videoURL2-client', this.state.videoURL);
       }
     }
 

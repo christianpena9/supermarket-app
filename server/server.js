@@ -29,7 +29,7 @@ io.on('connection', (socket) => {
   })
 
   socket.on('videoURL2-client', (data) => {
-    console.log("videoURL is =>", data);
+    console.log("videoURL2 is =>", data);
     io.sockets.emit('videoURL2-server', data);
   })
 
