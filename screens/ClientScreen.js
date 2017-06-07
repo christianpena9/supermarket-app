@@ -45,12 +45,12 @@ class ClientScreen extends React.Component {
     this.socket.on('videoURL-server', (data) =>{
       console.log("incoming data from server videoURL-server => ", data);
       this.setState({
-        videoURL2: data,
+        videoURL: data,
         callPage: !this.state.callPage
-      });
-      console.log("about to run webRTC call");
-      this.startCall();
-      console.log("should of ran webRTC call");
+      }, this.startCall());
+      console.log("about to run webRTC call =>", this.state.videoURL);
+
+      console.log("should of ran webRTC call =>", this.state.videoURL);
     });
 
     this.socket.on("hangUpHome-server", (data)=> {
@@ -104,6 +104,17 @@ class ClientScreen extends React.Component {
 
 
   // -------------------FUNCTIONS----------------------------
+  // componentDidUpdate(){
+  //   console.log(
+  //     "is switch on = ", this.state.isSwitchOn,
+  //     "call page is = ", this.state.callPage,
+  //     "videoURL is  = ", this.state.videoURL,
+  //     "videoURL2 is = ", this.state.videoURL2,
+  //     "answer call button is  = ", this.state.answerCallButton,
+  //     "end call button is  = ", this.state.endCallButton
+  //   );
+  // }
+
   hangUp(){
     this.setState({
       videoURL: null,

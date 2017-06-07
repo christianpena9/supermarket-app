@@ -75,7 +75,7 @@ export default class HomeScreen extends Component {
     });
 
     this.socket.on('videoURL2-server', (data) =>{
-      console.log("incoming data from server videoURL-server => ", data);
+      console.log("incoming data from server videoURL2-server => ", data);
       this.setState({ videoURL2: data });
     });
 
@@ -162,7 +162,7 @@ export default class HomeScreen extends Component {
 
     // Updates messaging for Receiver
     let available;
-    (this.state.isSwitchOn) ? available = 'ARE' : available = 'NOT';
+    (this.state.isSwitchOn) ? available = 'ARE' : available = 'ARE NOT';
 
     // variables to store TouchableOpacity component
     let answerCall  = null;
