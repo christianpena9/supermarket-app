@@ -15,6 +15,17 @@ export const styles = StyleSheet.create({
   backgroundColor: 'rgb(30,30,30)',
   borderColor : 'rgb(0,0,0)',
   },
+  logo: {
+    height: 150,
+    width: 450,
+    shadowColor: '#000000',
+    shadowOffset: {
+      width: 1,
+      height: 3
+    },
+    shadowRadius: 11,
+    shadowOpacity: 1.0
+  },
   order: {
     fontSize: 40,
     color: "rgb(10,165,255)"
