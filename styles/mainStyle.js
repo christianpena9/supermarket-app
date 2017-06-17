@@ -34,7 +34,9 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     height:150,
     width: window.width,
-    backgroundColor: 'rgb(230,230,230)'
+    backgroundColor: 'rgb(230,230,230)',
+    borderBottomColor: 'rgb(170,170,170)',
+    borderBottomWidth: 2
   },
   order: {
     fontSize: 40,
