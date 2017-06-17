@@ -23,16 +23,37 @@ export const styles = StyleSheet.create({
       width: 1,
       height: 3
     },
-    shadowRadius: 11,
-    shadowOpacity: 1.0
+    shadowOpacity: 1.0,
+    shadowRadius: 11
+  },
+  header: {
+    flex: 1,
+    position: 'absolute',
+    top: 0,
+    alignItems: 'center',
+    justifyContent: 'center',
+    height:150,
+    width: window.width,
+    backgroundColor: 'rgb(230,230,230)'
   },
   order: {
     fontSize: 40,
     color: "rgb(10,165,255)"
   },
   text: {
-    fontSize: 40,
-    color: 'rgb(10,165,255)'
+    fontSize: 35,
+    color: 'rgb(10,165,255)',
+    paddingBottom: 30
+  },
+  switch: {
+    paddingBottom: 60
+  },
+  center: {
+    // flex: 1,
+    // justifyContent: 'space-around',
+    alignItems: 'center',
+    // height: 100,
+    width: window.width
   },
   sendText: {
     textAlign: 'center',
@@ -58,6 +79,7 @@ export const styles = StyleSheet.create({
     borderColor: 'white',
     borderWidth: 3,
     backgroundColor: 'rgb(0,165,255)'
+
   },
   answerCall: {
     flex:1,

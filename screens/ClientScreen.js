@@ -6,6 +6,7 @@ import {
   Button,
   Alert,
   Switch,
+  Image,
   TouchableOpacity
 } from 'react-native';
 import {
@@ -29,7 +30,7 @@ class ClientScreen extends React.Component {
   constructor() {
     super();
 
-    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
+    this.socket = io('http://192.168.0.21:3000', {jsonp: false});
     this.state = {
       callButton: false,
       callPage: false,
@@ -134,7 +135,13 @@ class ClientScreen extends React.Component {
       // -------------------MAIN PAGE-----------------------
       if (!this.state.callPage) {
         homePage =
-        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: this.state.backColor}}>
+        <View style={{flex: 1, justifyContent: 'center', width: window.width, alignItems: 'center', backgroundColor: this.state.backColor}}>
+          <View style={styles.header}>
+            <Image
+              style={styles.logo}
+              source={require('../styles/fine_fare_logo.png')}
+            />
+        </View>
           <Text style={styles.order}>
             Place your order now!
           </Text>
