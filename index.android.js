@@ -44,7 +44,7 @@ export default class HomeScreen extends Component {
     // Jimmy IP address 192.168.0.3
     // Christian IP address 172.28.45.126
 
-    this.socket = io('http://192.168.0.4:3000', {jsonp: false});
+    this.socket = io('http://192.168.0.21:3000', {jsonp: false});
     this.state = {
       isSwitchOn: false,
       backColor: "rgb(245,245,245)",
@@ -192,27 +192,33 @@ export default class HomeScreen extends Component {
     // -------------------MAIN PAGE-----------------------
     if (!this.state.callPage) {
       callPage =
-      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: this.state.backColor}}>
+      <View style={{flex: 1, justifyContent: 'center', width: window.width, alignItems: 'center', backgroundColor: this.state.backColor}}>
 
-        <Image
-          style={styles.logo}
-          source={require('./styles/fine_fare_logo.png')}
-        />
+        <View style={styles.header}>
+          <Image
+            style={styles.logo}
+            source={require('./styles/fine_fare_logo.png')}
+          />
+        </View>
 
-        <Text style={styles.text}>
-          YOU { available } AVALIABLE
-        </Text>
+        <View style={styles.center}>
+          <Text style={styles.text}>
+            YOU { available } AVALIABLE
+          </Text>
 
-        <Switch
-          onValueChange={this.updateSwitch}
-          value={this.state.isSwitchOn}
-         />
+          <Switch
+            style={styles.switch}
+            onValueChange={this.updateSwitch}
+            value={this.state.isSwitchOn}
+           />
 
-        <TouchableOpacity
-          onPress = {() => navigate('ClientScreen', { isSwitchOn: this.state.isSwitchOn })}
-          style = {styles.touch}>
-          <Text style={styles.sendText}>Client</Text>
-        </TouchableOpacity>
+          <TouchableOpacity
+            onPress = {() => navigate('ClientScreen', { isSwitchOn: this.state.isSwitchOn })}
+            style = {styles.touch}>
+            <Text style={styles.sendText}>Client</Text>
+          </TouchableOpacity>
+        </View>
+        
       </View>
     }else {
       // -----------------CALL PAGE------------------------
