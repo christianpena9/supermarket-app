@@ -206,6 +206,7 @@ export default class HomeScreen extends Component {
             YOU { available } AVALIABLE
           </Text>
 
+
           <Switch
             style={styles.switch}
             onValueChange={this.updateSwitch}
@@ -218,7 +219,7 @@ export default class HomeScreen extends Component {
             <Text style={styles.sendText}>Client</Text>
           </TouchableOpacity>
         </View>
-        
+
       </View>
     }else {
       // -----------------CALL PAGE------------------------
