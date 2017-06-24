@@ -206,7 +206,6 @@ export default class HomeScreen extends Component {
             YOU { available } AVALIABLE
           </Text>
 
-
           <Switch
             style={styles.switch}
             onValueChange={this.updateSwitch}
