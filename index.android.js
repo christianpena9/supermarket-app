@@ -44,7 +44,7 @@ export default class HomeScreen extends Component {
     // Jimmy IP address 192.168.0.3
     // Christian IP address 172.28.45.126
 
-    this.socket = io('http://192.168.0.21:3000', {jsonp: false});
+    this.socket = io('http://192.168.0.18:3000', {jsonp: false});
     this.state = {
       isSwitchOn: false,
       backColor: "rgb(245,245,245)",
